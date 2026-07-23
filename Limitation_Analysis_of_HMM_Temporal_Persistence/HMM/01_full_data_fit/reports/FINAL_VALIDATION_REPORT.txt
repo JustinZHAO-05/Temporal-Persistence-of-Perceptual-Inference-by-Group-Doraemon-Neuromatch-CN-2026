@@ -1,0 +1,37 @@
+HMM RESULTS FULL REPORT - FINAL VALIDATION
+post_run_validation_utc=2026-07-17T10:18:50.323353+00:00
+notebook_code_cells=14
+notebook_error_outputs=0
+prediction_rows=83210
+subjects=12
+png_count=42
+svg_count=42
+01_output_folder_exists: PASS
+02_notebook_exists: PASS
+02b_notebook_execution_counts_complete: PASS
+02c_notebook_error_outputs_zero: PASS
+03_prediction_csv_exists: PASS
+04_prediction_contains_12_subjects: PASS
+05_prediction_rows_equal_83210: PASS
+06_required_inference_prediction_columns: PASS
+07_smoothed_posterior_range: PASS
+08_smoothed_posterior_sum_error_lt_1e8: PASS
+09_filtered_probability_sum_error_lt_1e8: PASS
+10_prior_predictive_sum_error_lt_1e8: PASS
+11_no_nan_inf: PASS
+12_no_duplicate_trial_key: PASS
+13_missing_trials_not_reintroduced: PASS
+14_one_step_ll_matches_subject_final_ll: PASS
+15_subject10_retained_and_flagged: PASS
+16_subject_summary_exists: PASS
+17_condition_summary_exists: PASS
+18_required_figure_stems_exist: PASS
+19_png_and_svg_pairs: PASS
+20_html_exists: PASS
+21_html_contains_model_name: PASS
+22_html_relative_links_exist: PASS
+23_html_core_offline: PASS
+24_reports_exist: PASS
+25_manifest_exists: PASS
+26_protected_inputs_unchanged: PASS
+overall_status: PASS

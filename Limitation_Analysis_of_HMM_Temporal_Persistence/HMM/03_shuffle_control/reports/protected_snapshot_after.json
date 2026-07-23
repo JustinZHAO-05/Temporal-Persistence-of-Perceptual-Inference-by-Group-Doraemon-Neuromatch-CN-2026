@@ -1,0 +1,334 @@
+{
+  "D:\\neuromatch_pod_work\\HMM_me\\data01_direction4priors.csv": {
+    "size": 11090477,
+    "sha256": "c7675baf734d998b49e8537607e8b1435b0a775f7c1c562ad67b412de52059da"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_main_me_diagnostics_and_rerun.ipynb": {
+    "size": 289450,
+    "sha256": "d6b1676e217b60f2964ebf0c31d39eb266653c6802c031a234cb6bf33e8a8090"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_main_me_all_subjects_run.ipynb": {
+    "size": 165027,
+    "sha256": "46e8ca6568f7fbf8b6209fee801fa9a6680ae05a760d66756870a579428e9e11"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\all_subject_summary_revised.csv": {
+    "size": 4849,
+    "sha256": "f7f2b297bc22b4a528d5d1b370817e8b9e5797e850fea9d7bb6ead2c47547ce6"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\all_subject_transition_matrices_revised.csv": {
+    "size": 2372,
+    "sha256": "bb97ab12558ff8c9f6a0d9a6ce32759f5c30830233d27192b8e842745ed9d831"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\diagnostic_subject2_comparison.csv": {
+    "size": 1230,
+    "sha256": "e548db68a360f3e3bb0bdc5d8dab85450c3bb66806d6236f82fa2dff1c62700e"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\diagnostic_subject2_stepwise_likelihood.csv": {
+    "size": 380194,
+    "sha256": "09fd0aa62da2b5d3a88446b1e99cf3c1511002a1b3ec5ad945de9f06af89ef59"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\failed_subjects_revised.csv": {
+    "size": 43,
+    "sha256": "a5e71522b7d48b902c599d1db1d4c7b7999298f3cf5194c311588e415ab02335"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\missing_trial_report.csv": {
+    "size": 287,
+    "sha256": "da3e38c32dd9ce62b73289d7b136b96e14b3c1398a253c2394ecc5db3e889bdd"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_01\\subject_01_log_likelihood_history.csv": {
+    "size": 5628,
+    "sha256": "89205c9eb2c060b6d82d311d08a58c7032a788c7bde3ab433600524a8ea607a5"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_01\\subject_01_parameters.json": {
+    "size": 2596,
+    "sha256": "b54de85542f5f27ec3df2f3664f25e9d113264e6b29d8f21c98d0b6262c021ae"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_01\\subject_01_trial_posteriors.csv": {
+    "size": 1173504,
+    "sha256": "984bd1bbf710a15d39f7390e3fc05f43c2a7e01c2b3cd3748e8974b159c09f21"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_02\\subject_02_log_likelihood_history.csv": {
+    "size": 3756,
+    "sha256": "f8db5b25cfbe3ce3180fd8bb8483f321457a7770952bc3fd313aa7cea461e05b"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_02\\subject_02_parameters.json": {
+    "size": 2590,
+    "sha256": "edfbebd3547009659cffb8f9c429240a9af9858586fa7402d9270357ea0ecd74"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_02\\subject_02_trial_posteriors.csv": {
+    "size": 1062627,
+    "sha256": "f73c94bbf15b5bb3abf08837e8c44d37add14798f45c6487e5019faf3d692882"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_03\\subject_03_log_likelihood_history.csv": {
+    "size": 2820,
+    "sha256": "681381c7d63d1fa9214cd56f02e6a2641e2505b0248ddeefb86f55f2a646f24d"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_03\\subject_03_parameters.json": {
+    "size": 2588,
+    "sha256": "5c2b2fe05cf7aed9dd49ab4425289d2625323422193e4b357eeea2c5821e9bfe"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_03\\subject_03_trial_posteriors.csv": {
+    "size": 1288966,
+    "sha256": "3d542640d69fc779a3cbe43653938363abdba5c510e78f8763db328e0e54813e"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_04\\subject_04_log_likelihood_history.csv": {
+    "size": 1613,
+    "sha256": "0d9cca640a47fe1cf3dddc70dc2384ef875ca21764e478d52364b1bd157e7f8f"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_04\\subject_04_parameters.json": {
+    "size": 2587,
+    "sha256": "7ee9169d6dfba847797b1daaef9ad1831b849b13c72d95d0f2178508f31f93df"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_04\\subject_04_trial_posteriors.csv": {
+    "size": 655242,
+    "sha256": "3d73e6dfd3f29c8efcbe7eeda520cc8f9af26e710647caa9bedd68cf0ee5e518"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_05\\subject_05_log_likelihood_history.csv": {
+    "size": 14133,
+    "sha256": "fe5c53a39d0749e54a6055405f81ae23304c0ae3c745c97db49a2d06f81d3220"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_05\\subject_05_parameters.json": {
+    "size": 2611,
+    "sha256": "8cd26b1215276722049eaba3ecd5607a99898d601609b02b4fc16417cd817496"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_05\\subject_05_trial_posteriors.csv": {
+    "size": 793264,
+    "sha256": "47a14bfff4db89863dfc7678d810af8dbc536c8a71b761c5ec6af314a7b15fd5"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_06\\subject_06_log_likelihood_history.csv": {
+    "size": 2722,
+    "sha256": "ab2ca8157fccf8cbde2b8d63962795c371819c0729ff38869ee6cb98f07d9326"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_06\\subject_06_parameters.json": {
+    "size": 2594,
+    "sha256": "263a5db1eff596fc28988686dff62d9f0d987707c437f2a592a01a91a23e7a14"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_06\\subject_06_trial_posteriors.csv": {
+    "size": 1038144,
+    "sha256": "381094e95e652b927b3823fc13a0596583c0afff017a39d6c11ea91d8778109b"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_07\\subject_07_log_likelihood_history.csv": {
+    "size": 1987,
+    "sha256": "5ebad7fb98a84b10a1ab03d2ae6c6381674f99d263a0ae376d2a4bb39f5df09f"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_07\\subject_07_parameters.json": {
+    "size": 2590,
+    "sha256": "06e48ffdff21b2cfb53c3e34e39f7de05eeaf5b49d08e95190a20bb493cad7c2"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_07\\subject_07_trial_posteriors.csv": {
+    "size": 795409,
+    "sha256": "425e79235e70124de2bd3e25714e734f350243601ab8772218fd83ae8cae0bc5"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_08\\subject_08_log_likelihood_history.csv": {
+    "size": 5247,
+    "sha256": "17df9a06f5787753e166c567cf2a4999c32344804aa8d032c57c327faf0e9881"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_08\\subject_08_parameters.json": {
+    "size": 2588,
+    "sha256": "a5e6af40cb18a9e93796c2119b7dce00009aac7c5ceec23601052ac0764c1b18"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_08\\subject_08_trial_posteriors.csv": {
+    "size": 785493,
+    "sha256": "2cf16df1301fdc901184d4716b0a256bea86b6ff277db02ec1b376597576a78a"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_09\\subject_09_log_likelihood_history.csv": {
+    "size": 4714,
+    "sha256": "e1b604535aab9a53802b67432e75ef1f8533ccc1393340eb476849e96afbce21"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_09\\subject_09_parameters.json": {
+    "size": 2587,
+    "sha256": "61aeb47423b274cbb300defcd3036ea5a4c1aa6ebce72e766226fec20ccfaef4"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_09\\subject_09_trial_posteriors.csv": {
+    "size": 1177572,
+    "sha256": "8d84c109808b4b9c31c855e445c3fc195f1f8b59f70e0991837c3181eaf8703a"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_10\\subject_10_log_likelihood_history.csv": {
+    "size": 14339,
+    "sha256": "5ae5d66bd7e491eb5fdf57c61b39e9eadd28bed916dd23fe9e16f1ae1516556e"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_10\\subject_10_parameters.json": {
+    "size": 2589,
+    "sha256": "8e52ace68b1a35047dd84999c215fc68da7deedb3d543bc5082cd4cc330bd23c"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_10\\subject_10_trial_posteriors.csv": {
+    "size": 823518,
+    "sha256": "e7533f786d03f1cba39fa07391d58d1c3227c9c265a2146fad2f5e2d6fe1a8fc"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_11\\subject_11_log_likelihood_history.csv": {
+    "size": 1740,
+    "sha256": "8fd3c0422987e0ff4674e45623eacb992d262b925f7aeb21e7fb6be437e1af02"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_11\\subject_11_parameters.json": {
+    "size": 2597,
+    "sha256": "55686f06acbd6bf07f88603726d61198685df241cc1458ef4769fe68d455ce18"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_11\\subject_11_trial_posteriors.csv": {
+    "size": 892870,
+    "sha256": "7ca97a46ea74953c11a9ff5d34842c791c22a5ccd7d463b6a59c2e7f2300d8db"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_12\\subject_12_log_likelihood_history.csv": {
+    "size": 3249,
+    "sha256": "791f6cd8ccdcb410195610b9d6ce12e2a52e6b60fe35afeabb152eae43e51db0"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_12\\subject_12_parameters.json": {
+    "size": 2581,
+    "sha256": "5db51a457afae40370b3ac2b99aa15fc88d3e2310b827f8362c7ceb1dd10ffd3"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\all_subject_results_revised\\subject_12\\subject_12_trial_posteriors.csv": {
+    "size": 884899,
+    "sha256": "701a6f59993756423c649ebc1127ec70859d91f321e2ed1351a98c758f264445"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\csv\\cv_fit_diagnostics.csv": {
+    "size": 32174,
+    "sha256": "64e9e96fbbdc30f27f086e98f7ed83c650da16e77b34df129740fd8b9d0687b5"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\csv\\cv_fold_assignments.csv": {
+    "size": 15178,
+    "sha256": "d1a9e8d16a4cd0036f5ce9bab80d1c5f99201d5de4f27701b61fda1456f756a3"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\csv\\heldout_model_comparison.csv": {
+    "size": 1370,
+    "sha256": "37a7895b6a61066842af1ed2221a55cc3aea4f534b6b68f5dabde6efc24e364b"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\csv\\missing_trials_excluded.csv": {
+    "size": 114,
+    "sha256": "f100e2ebb635e6cc5709ade74d5898835d5cb70b800d003477bf923b30dcd590"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\csv\\our_model_fourfold_fold_summary.csv": {
+    "size": 262,
+    "sha256": "6ab7f60bc02c191e9ca33c416a5ece72e43aee2bee1b27ac593c83878515a3b8"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\csv\\our_model_fourfold_overall_summary.csv": {
+    "size": 479,
+    "sha256": "43eec5a02436fd33a0754c097ff341cb17ba45f72b53d6d49cc9ef1b80ab2a43"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\csv\\our_model_fourfold_sequence_scores.csv": {
+    "size": 28654,
+    "sha256": "1bac5cd56b7ebb7f5346c70c42bb295c94cd234b4c4323830b3c0210c95d9329"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\csv\\our_model_fourfold_subject_summary.csv": {
+    "size": 658,
+    "sha256": "a52dc3d95762980a6df76aa21f1d6d1e376831ec90d67363237e1f467376bebf"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\csv\\our_model_fourfold_trial_predictions.csv": {
+    "size": 30829137,
+    "sha256": "a15556192315ab63aeb40754fde919b9ff400d53c9d6c66b376300acc5a43efe"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\figures\\cv_convergence_iterations.png": {
+    "size": 62452,
+    "sha256": "cef68e96d5359406fe9b15dede8b3e8ae511c44b8f61733a175af558e54dc199"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\figures\\cv_convergence_iterations.svg": {
+    "size": 36527,
+    "sha256": "dd4c6c9e7fc89d6af087b3fbaf6c5af9855970db51dd5629aa4bff8b452e3122"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\figures\\heldout_model_comparison.png": {
+    "size": 207204,
+    "sha256": "2b9db04792c2832a1c0ac65517f70e35a3416c653c4053c81851eca0778baa00"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\figures\\heldout_model_comparison.svg": {
+    "size": 84265,
+    "sha256": "fedf2b3110bb1bc7b48b379089a9b87007267791ec8e8e7920b416736f09e83e"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\figures\\our_model_fold_performance.png": {
+    "size": 117423,
+    "sha256": "db6c331f2f3e57924b3c0137bfdce7aa0b1c6143156c6c93167d28a47d671639"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\figures\\our_model_fold_performance.svg": {
+    "size": 34479,
+    "sha256": "1025e8959cd44d6e12cc4efc04c0fceb079fda46ef0d38d22def7c63cc180170"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\figures\\our_model_subject_performance.png": {
+    "size": 63684,
+    "sha256": "c987ee68101ab073625129ee11210786c4194f9a9f327eacd0315e566fae8f6a"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\figures\\our_model_subject_performance.svg": {
+    "size": 35214,
+    "sha256": "66c87d4a5ab106703d192b236d32148717e5239d636b8c9bde4210bfca8ebfbe"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\figures\\predictive_density_ratio_vs_source_models.png": {
+    "size": 115919,
+    "sha256": "0307e9c490beb7c18faedaa5f4c8d426a434ec6d54f00f3284d5e371bfebf52d"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\figures\\predictive_density_ratio_vs_source_models.svg": {
+    "size": 51006,
+    "sha256": "348796910cc151404c6c41437273681b96360afcd3ce2def3aaac1d51fa192f3"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\html\\HMM_fourfold_comparison_with_original_report.html": {
+    "size": 1404290,
+    "sha256": "298c80cfea3a7d500745934dcf94ef47ad7a89877f69c2aab514e68284284eb4"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\logs\\FINAL_VALIDATION_REPORT.txt": {
+    "size": 605,
+    "sha256": "46ee9ad3178e37720b97779ea5afc896d339c26ed52becc2c3e9681b726aa361"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\logs\\fourfold_comparison_report.md": {
+    "size": 1255,
+    "sha256": "5709d28f861985c73f0940f31694f52ccb13b590857eb7eb9d542453333a32ac"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\logs\\output_manifest.csv": {
+    "size": 3940,
+    "sha256": "5be8fbfc931d6e835a8d50de1140b5f39b75e0475737b4564add66964eed5e1b"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\logs\\POST_RUN_VALIDATION_REPORT.txt": {
+    "size": 1069,
+    "sha256": "62a208a7a039b65f7d8ebd202ad4209a4203d5aeb4f34158741f9634a9f4dd08"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\logs\\PRIMARY_INJECTION_VALIDATION.txt": {
+    "size": 660,
+    "sha256": "801f2e1a8b2589a584804788806a88bb8dd1cc07ff3c5d8645ed115da2b2525d"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\logs\\run_metadata.json": {
+    "size": 1270,
+    "sha256": "d604c26272d2721e9f1130bbae99c4e05d76384dbc86bb67b82aba9231e6ad25"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\model_artifacts\\__pycache__\\fourfold_cv_core.cpython-312.pyc": {
+    "size": 67238,
+    "sha256": "08f8addbdee3bbbf49feb2f2c57ee2e0caacfff86c1913838c3c58428f6ce436"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\model_artifacts\\__pycache__\\inspect_embedded_payload.cpython-312.pyc": {
+    "size": 5042,
+    "sha256": "a981619fac4d8dd967ebc5a10856998f6540ebb098931989cfba441def31da65"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\model_artifacts\\build_notebook.py": {
+    "size": 3708,
+    "sha256": "403fe12c0d0763e085c471644b0004af366ddd558f349c0c4e55ec22868ae050"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\model_artifacts\\execute_notebook.py": {
+    "size": 2280,
+    "sha256": "f46fb2bcf8f3e0743e409b4dfc5f3dab4366dd136a6b0ee5b06f28d5c97649fa"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\model_artifacts\\fourfold_cv_core.py": {
+    "size": 51539,
+    "sha256": "f520b3d81f53407304133fb7c78999a101b85e99915682976b78f6d6383c23c1"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\model_artifacts\\inject_emhmm_into_primary_html.py": {
+    "size": 10224,
+    "sha256": "85d525fc480ac76567ca172cf1f4344497cbac01eb8769e08f23e2cec0b60ea1"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\model_artifacts\\inspect_embedded_payload.py": {
+    "size": 3019,
+    "sha256": "b6fc78a43d3ea0ee2cdf51263304d5910416f2346a7611ca846cc3dd177e2153"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\model_artifacts\\post_run_validation.py": {
+    "size": 5981,
+    "sha256": "1931339345710e35b36ba40232ac38950f4731d3cef068b139f9ab1eee5d5b61"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\model_artifacts\\protected_snapshot_after.json": {
+    "size": 52765,
+    "sha256": "aa079d6118360b6f928e4f505b72fcb760fc0e2bad95b581efeb00f67d59094b"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\model_artifacts\\protected_snapshot_before.json": {
+    "size": 52765,
+    "sha256": "aa079d6118360b6f928e4f505b72fcb760fc0e2bad95b581efeb00f67d59094b"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\model_artifacts\\validate_primary_injection.py": {
+    "size": 4285,
+    "sha256": "5487a7e7c64a954919cee45502629eb59831be7b69acde2f319e45b0d0a2daa5"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\HMM_fourfold_comparison\\notebooks\\HMM_fourfold_heldout_comparison.ipynb": {
+    "size": 17858,
+    "sha256": "8b8fd2cd5aded440b1c0a242f9e5e42f3568923ebcaf4e412b0d5ce87d0d6e6c"
+  }
+}

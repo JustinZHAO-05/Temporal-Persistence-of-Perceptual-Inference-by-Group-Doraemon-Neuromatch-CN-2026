@@ -1,0 +1,33 @@
+HMM FOUR-FOLD COMPARISON - POST RUN VALIDATION
+notebook_execution_counts=[1, 2, 3]
+notebook_error_outputs=0
+trial_count=83210
+run_count=388
+fold_run_counts=[100, 96, 99, 93]
+fit_count=48
+converged_fits=48
+our_heldout_ll_per_trial=-0.810567623340
+source_covariate_hmm_ll_per_trial=-0.8133
+point_difference_our_minus_covariate=+0.002732376660
+notebook_code_cells_executed: PASS
+notebook_has_zero_error_outputs: PASS
+trial_count_83210: PASS
+all_subjects: PASS
+all_original_runs: PASS
+forty_eight_fits: PASS
+all_fits_converged: PASS
+all_fits_monotonic: PASS
+no_duplicate_test_trials: PASS
+four_fold_assignments: PASS
+fold_run_counts_balanced: PASS
+prior_predictive_sums_one: PASS
+filtered_sums_one: PASS
+overall_ll_reconstructs: PASS
+comparison_contains_covariate_hmm: PASS
+combined_html_contains_original_title: PASS
+combined_html_contains_new_model: PASS
+combined_html_contains_prediction_distinction: PASS
+combined_html_relative_assets_exist: PASS
+png_svg_figure_pairs: PASS
+protected_result_folders_unchanged: PASS
+overall_status: PASS

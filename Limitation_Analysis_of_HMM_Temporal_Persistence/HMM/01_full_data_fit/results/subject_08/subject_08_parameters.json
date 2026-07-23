@@ -1,0 +1,110 @@
+{
+  "subject_id": 8,
+  "original_n_trials": 5797,
+  "removed_missing_trials": 0,
+  "valid_n_trials": 5797,
+  "original_n_blocks": 27,
+  "n_segments": 27,
+  "converged": true,
+  "n_iterations": 221,
+  "initial_log_likelihood": -7692.273050836699,
+  "final_log_likelihood": -7107.878243254242,
+  "log_likelihood_improvement": 584.3948075824574,
+  "likelihood_monotonic": true,
+  "maximum_likelihood_drop": 0.0,
+  "sensory_weight": 0.39565027611033005,
+  "prior_weight": 0.47975865973332665,
+  "lapse_weight": 0.12459106415634298,
+  "min_transition_probability": 2.2938038913150346e-09,
+  "max_transition_probability": 0.9839873769921137,
+  "kappa_s_6": 0.816656257070604,
+  "kappa_s_12": 2.2271954794932873,
+  "kappa_s_24": 9.102469757022146,
+  "kappa_p_10": 7.714288646556739,
+  "kappa_p_20": 4.102698974772962,
+  "kappa_p_40": 3.39858275132421,
+  "kappa_p_80": 2.153756246101903,
+  "has_nan": false,
+  "has_inf": false,
+  "reached_max_iter": false,
+  "state_collapse_flag": false,
+  "lapse_near_zero_flag": false,
+  "transition_near_smoothing_floor_flag": true,
+  "pi": [
+    1.5522410390932866e-07,
+    0.5992781563987943,
+    0.4007216883771018
+  ],
+  "transition_matrix": [
+    [
+      0.7706274993579684,
+      0.01703792285568727,
+      0.2123345777863443
+    ],
+    [
+      0.016012620714082357,
+      0.9839873769921137,
+      2.2938038913150346e-09
+    ],
+    [
+      0.6840013330131733,
+      1.9825561634436956e-08,
+      0.31599864716126513
+    ]
+  ],
+  "sensory_kappas": {
+    "0.06": 0.816656257070604,
+    "0.12": 2.2271954794932873,
+    "0.24": 9.102469757022146
+  },
+  "prior_kappas": {
+    "80": 2.153756246101903,
+    "40": 3.39858275132421,
+    "20": 4.102698974772962,
+    "10": 7.714288646556739
+  },
+  "training_settings": {
+    "max_iter": 600,
+    "tol": 1e-06,
+    "transition_smoothing": 1e-06,
+    "update_pi": true,
+    "update_kappa": true,
+    "random_seed": 20260717,
+    "initial_pi": [
+      0.6,
+      0.35,
+      0.05
+    ],
+    "initial_transition_matrix": [
+      [
+        0.8,
+        0.15,
+        0.05
+      ],
+      [
+        0.15,
+        0.8,
+        0.05
+      ],
+      [
+        0.4,
+        0.4,
+        0.2
+      ]
+    ],
+    "initial_sensory_kappas": {
+      "0.06": 1.5,
+      "0.12": 4.5,
+      "0.24": 20.0
+    },
+    "initial_prior_kappas": {
+      "80": 0.5,
+      "40": 1.0,
+      "20": 6.0,
+      "10": 30.0
+    },
+    "likelihood_drop_tolerance": 1e-08,
+    "kappa_lower_bound": 1e-06,
+    "kappa_upper_bound": 500.0
+  }
+}

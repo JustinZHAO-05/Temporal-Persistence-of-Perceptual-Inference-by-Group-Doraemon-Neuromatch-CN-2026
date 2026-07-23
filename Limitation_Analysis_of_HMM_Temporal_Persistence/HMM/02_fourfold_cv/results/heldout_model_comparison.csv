@@ -1,0 +1,8 @@
+model,mean_held_out_ll_per_trial,ci_low,ci_high,value_provenance,fold_assignment,difference_from_our_model,our_density_ratio_vs_model
+Our revised 3-state subject-specific soft-EM HMM,-0.8105676233398648,-0.8606506217129399,-0.76147011924733,new fixed four-fold run-level CV; training-only fit,new deterministic folds saved in cv_fold_assignments.csv,0.0,1.0
+Original HTML: Covariate HMM,-0.8133,,,exact value reported in source HTML,original report folds unavailable in workspace,-0.0027323766601352606,1.002736113003499
+Original HTML: Static HMM,-0.8431,,,derived from reported independent baseline and delta,original report folds unavailable in workspace,-0.0325323766601352,1.0330673398726828
+Original HTML: Independent Switching,-0.9052,,,derived from reported covariate delta,original report folds unavailable in workspace,-0.09463237666013524,1.0992546691637184
+Original HTML: Serial stimulus + response,-0.91,,,rounded table value in source HTML,original report folds unavailable in workspace,-0.09943237666013527,1.1045437752752922
+Original HTML: Serial response,-0.91,,,rounded table value in source HTML,original report folds unavailable in workspace,-0.09943237666013527,1.1045437752752922
+Original HTML: Serial stimulus,-0.91,,,rounded table value in source HTML,original report folds unavailable in workspace,-0.09943237666013527,1.1045437752752922

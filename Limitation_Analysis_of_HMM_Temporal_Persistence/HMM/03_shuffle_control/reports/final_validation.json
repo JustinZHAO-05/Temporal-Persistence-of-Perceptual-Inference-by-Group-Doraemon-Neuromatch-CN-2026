@@ -1,0 +1,19 @@
+{
+  "required_files": true,
+  "12_subject_dirs": true,
+  "subject_files": true,
+  "prediction_columns": true,
+  "83210_each": true,
+  "unique_each": true,
+  "same_folds": true,
+  "block_single_fold": true,
+  "96_fold_rows": true,
+  "24_subject_summary": true,
+  "12_comparisons": true,
+  "finite_test": true,
+  "png_count": true,
+  "fresh_notebooks_have_outputs": true,
+  "validation_files_pass": true,
+  "no_failed_subjects": true,
+  "no_failed_folds": true
+}

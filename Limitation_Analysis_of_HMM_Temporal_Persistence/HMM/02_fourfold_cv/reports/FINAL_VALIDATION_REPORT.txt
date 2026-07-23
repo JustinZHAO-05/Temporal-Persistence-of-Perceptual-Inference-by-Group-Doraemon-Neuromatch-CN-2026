@@ -1,0 +1,19 @@
+HMM FOUR-FOLD HELD-OUT VALIDATION
+time_utc=2026-07-23T10:23:29.153409+00:00
+valid_trial_count_83210: PASS
+all_heldout_trials_scored_once: PASS
+twelve_subjects: PASS
+four_folds: PASS
+forty_eight_fits: PASS
+no_duplicate_trial_scores: PASS
+three_missing_trials_excluded: PASS
+finite_predictive_likelihood: PASS
+positive_predictive_likelihood: PASS
+finite_log_likelihood: PASS
+prior_predictive_sums_one: PASS
+filtered_sums_one: PASS
+each_trial_is_test_in_its_fold: PASS
+protected_result_folders_unchanged: PASS
+combined_html_exists: PASS
+comparison_figure_exists: PASS
+overall_status: PASS

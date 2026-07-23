@@ -1,0 +1,12 @@
+{
+  "subject_id": 1,
+  "fold_id": 3,
+  "n_train_trials": 6418,
+  "n_test_trials": 2144,
+  "converged": true,
+  "n_iterations": 171,
+  "train_ll": -2765.8715935957453,
+  "test_total_ll": -1003.8362883915818,
+  "test_ll_per_trial": -0.4682072240632378,
+  "monotonic": true
+}

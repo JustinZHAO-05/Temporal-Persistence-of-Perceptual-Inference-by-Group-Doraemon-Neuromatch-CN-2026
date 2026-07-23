@@ -1,0 +1,2 @@
+source,n_subjects,n_trials,n_blocks,states
+all_subject_results_revised (original full-data 3-state HMM),12,83210,388,sensory; prior; lapse

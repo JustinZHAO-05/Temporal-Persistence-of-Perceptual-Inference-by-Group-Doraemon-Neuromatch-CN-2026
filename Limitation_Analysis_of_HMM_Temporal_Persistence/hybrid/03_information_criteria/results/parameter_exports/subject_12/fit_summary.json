@@ -1,0 +1,8 @@
+{
+  "subject_id": 12,
+  "n_trials": 6474,
+  "converged": true,
+  "n_iterations": 93,
+  "final_log_likelihood": -5972.654963490653,
+  "monotonic": true
+}

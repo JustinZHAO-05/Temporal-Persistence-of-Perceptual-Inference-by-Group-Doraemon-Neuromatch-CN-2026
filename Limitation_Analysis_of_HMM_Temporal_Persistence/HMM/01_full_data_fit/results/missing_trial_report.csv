@@ -1,0 +1,4 @@
+subject_id,session_id,run_id,trial_index,original_row_index,original_block_id,estimate_x_missing,estimate_y_missing,preceding_valid_trial_index,following_valid_trial_index
+4,5,20,146,30043,5_20,True,True,145.0,
+4,5,23,188,30651,5_23,True,True,187.0,
+10,3,12,1,66604,3_12,True,True,,

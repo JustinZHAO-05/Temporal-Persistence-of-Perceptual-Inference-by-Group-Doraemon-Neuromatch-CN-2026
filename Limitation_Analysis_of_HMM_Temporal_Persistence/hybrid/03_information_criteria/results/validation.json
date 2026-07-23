@@ -1,0 +1,6 @@
+{
+  "three_models": true,
+  "twelve_subjects_each": true,
+  "finite": true,
+  "parameter_counts_expected": true
+}
