@@ -346,40 +346,6 @@ def run_test08():
  fig,ax=plt.subplots(figsize=(5,4));ax.bar(comp.model,comp.ll_per_trial);ax.set(ylabel='Held-out LL/trial',title='Cross-subject response negative control');fig.tight_layout();fig.savefig(out/"comparison.png",dpi=170);plt.close(fig)
  (out/"conclusion.md").write_text(f"# Test 08 conclusion\n\nOriginal HMM {oll:.6f}; cross-subject response control {cll:.6f}; drop {oll-cll:+.6f} LL/trial. This supports subject specificity, not Markov structure directly.\n",encoding='utf-8');return comp
 
-def write_overall_report():
- t1=pd.read_csv(ROOT/'01_matched_crossblock_shuffle'/'comparison.csv').set_index('model').ll_per_trial
- t2=pd.read_csv(ROOT/'02_nonmarkov_simulation'/'hmm_refit_results.csv');t3=pd.read_csv(ROOT/'03_multiple_initializations'/'identifiability_summary.csv');t4=pd.read_csv(ROOT/'04_block_plus_markov'/'comparison.csv').set_index('model').ll_per_trial
- t5=pd.read_csv(ROOT/'05_permutation_bootstrap'/'permutation_overall.csv');t6=pd.read_csv(ROOT/'06_equivalence_test'/'equivalence_results.csv');t7=pd.read_csv(ROOT/'07_chronological_prediction'/'overall_comparison.csv').set_index('model_name').ll_per_trial;t8=pd.read_csv(ROOT/'08_crosssubject_negative_control'/'comparison.csv').set_index('model').ll_per_trial
- simfrac=float(np.mean(t2.mean_diagonal_transition>=t2.observed_mean_diagonal));hy=float(t4['block_plus_markov']);block=float(t4['exchangeable_block_mixture']);eq=t6.set_index('comparison').loc['block_plus_markov_minus_block']
- if bool(eq.equivalent):final='控制block类型后，residual Markov增益的95%区间完全位于预设±0.005范围内；未发现具有实际意义的residual Markov predictive effect。'
- elif float(eq.ci_high)<-.005:final='Block+Markov在控制block后明显劣于exchangeable block mixture；当前Markov扩展没有预测价值。'
- elif float(eq.ci_low)>.005:final='控制block后仍存在超过实际阈值的正向Markov增益。'
- else:final='控制block后的residual Markov增益区间跨越实际阈值，证据仍不确定。'
- text=f"""# Markov效应验证整体中文报告
-
-## 预注册顺序
-
-分析严格按 `00_PLAN.md` 的01至08执行。所有主要结果使用response-before held-out likelihood；跨subject仅作为个体差异负对照。
-
-## 核心结果
-
-1. **Matched cross-block shuffle**：Original HMM {t1['original_hmm']:.6f}；within-block shuffle {t1['withinblock_shuffle_hmm']:.6f}；matched cross-block {t1['matched_crossblock_hmm']:.6f} LL/trial。跨block破坏直接检验block composition。
-2. **非Markov模拟**：在明确由exchangeable block mixture生成、没有trial transition的数据上重拟合240个HMM，{simfrac:.1%} 的拟合对角线不低于对应真实被试值。该比例衡量高A在非Markov数据中是否自然出现。
-3. **多初值**：不同初值的被试内最终对角线中位范围 {t3.diag_range.median():.4f}，LL/trial中位范围 {t3.ll_range.median():.6f}。A变化大而LL几乎不变意味着弱可识别。
-4. **Block+Markov**：exchangeable block mixture {block:.6f}；原始HMM {t4['original_hmm']:.6f}；Block+Markov {hy:.6f}。Hybrid相对block基线 {hy-block:+.6f} LL/trial。
-5. **100次permutation**：冻结训练HMM在matched cross-block permutation上的均值 {t5.ll_per_trial.mean():.6f}，95%范围 [{t5.ll_per_trial.quantile(.025):.6f}, {t5.ll_per_trial.quantile(.975):.6f}]。
-6. **等效性**：Block+Markov−Block mixture均值 {eq.mean_subject_delta:+.6f}，95% CI [{eq.ci_low:+.6f}, {eq.ci_high:+.6f}]，SESOI ±0.005，equivalent={bool(eq.equivalent)}。
-7. **时间向前预测**：最佳模型为 {t7.idxmax()}（{t7.max():.6f} LL/trial）；HMM {t7.get('hmm',np.nan):.6f}。
-8. **跨subject负对照**：Original HMM {t8['original_hmm']:.6f}；跨subject {t8['crosssubject_hmm']:.6f}。该下降只支持subject specificity。
-
-## 最终结论
-
-{final}
-
-高对角转移矩阵本身不是Markov证据。只有在控制已知条件、block异质性、初始化、非Markov生成数据和真正时间预测后，仍稳定提高held-out likelihood的residual transition，才可解释为可检测的Markov贡献。即使最终等效，也应表述为“在当前数据、模型和±0.005 LL/trial阈值下未发现具有实际意义的效应”，而不是数学上证明绝对不存在。
-"""
- (ROOT/'Markov_test_整体中文报告.md').write_text(text,encoding='utf-8');return text
-
 def validate_all():
  rows=[]
  for i,name in enumerate(['01_matched_crossblock_shuffle','02_nonmarkov_simulation','03_multiple_initializations','04_block_plus_markov','05_permutation_bootstrap','06_equivalence_test','07_chronological_prediction','08_crosssubject_negative_control'],1):
@@ -390,68 +356,34 @@ def validate_all():
  pd.DataFrame(files).to_csv(ROOT/'output_manifest.csv',index=False)
  if not df.all_pass.all():raise AssertionError(df[~df.all_pass]);return df
 
-# Clean UTF-8 report implementation.  Defined last so it supersedes the legacy
-# draft above, whose source text was damaged by an earlier Windows encoding pass.
 def write_overall_report():
  t1=pd.read_csv(ROOT/'01_matched_crossblock_shuffle'/'comparison.csv').set_index('model').ll_per_trial
  t2=pd.read_csv(ROOT/'02_nonmarkov_simulation'/'hmm_refit_results.csv');t3=pd.read_csv(ROOT/'03_multiple_initializations'/'identifiability_summary.csv');t4=pd.read_csv(ROOT/'04_block_plus_markov'/'comparison.csv').set_index('model').ll_per_trial
  t5=pd.read_csv(ROOT/'05_permutation_bootstrap'/'permutation_overall.csv');t6=pd.read_csv(ROOT/'06_equivalence_test'/'equivalence_results.csv');t7=pd.read_csv(ROOT/'07_chronological_prediction'/'overall_comparison.csv').set_index('model_name').ll_per_trial;t8=pd.read_csv(ROOT/'08_crosssubject_negative_control'/'comparison.csv').set_index('model').ll_per_trial
  simfrac=float(np.mean(t2.mean_diagonal_transition>=t2.observed_mean_diagonal));hy=float(t4['block_plus_markov']);block=float(t4['exchangeable_block_mixture']);eq=t6.set_index('comparison').loc['block_plus_markov_minus_block']
  boot=pd.read_csv(ROOT/'05_permutation_bootstrap'/'subject_bootstrap.csv').set_index('comparison').loc['hybrid_minus_block'];chrono_gain=float(t7['block_plus_markov']-t7['exchangeable_block_mixture'])
- text=f'''# Markov 效应验证：整体中文报告
+ text=f"""# Overall Markov-effect validation report
 
-## 一句话结论
+## Main conclusion
 
-当前结果**不支持“完全不存在 Markov 效应”**。数据中很强的一部分结构来自被试差异和慢变的 block 类型；仅看 HMM 的高对角转移矩阵会夸大 Markov 证据。但在显式控制 block 类型后，trial-to-trial 转移仍改善真正的 one-step-ahead 预测：随机四折增益为 {hy-block:+.6f} LL/trial，严格时间前向预测增益为 {chrono_gain:+.6f} LL/trial。
+The results do not support either an exclusively Markov account or the complete absence of sequential information. Participant specificity and slowly varying block type explain substantial structure. After explicitly representing block type, trial-to-trial transitions still improve one-step-ahead prediction by {hy-block:+.6f} LL/trial in random four-fold evaluation and {chrono_gain:+.6f} LL/trial in chronological prediction.
 
-## 评价口径
+## Eight analyses
 
-- 主要指标是看到 trial t 的 response **之前**计算的 response predictive log density（自然对数/ trial）；越接近 0 越好。
-- smoothed posterior 使用整段数据、含未来信息，只能用于事后状态推断，不能作为预测性能证据。
-- filtered state inference 使用 t 及以前反应；prior-predictive state probability 使用 t-1 filtered probability 与转移矩阵预测 t 的状态。
-- 所有新输出均位于 `Markov_test`，没有改动原 `result/results` 目录。
+1. Matched cross-block shuffle: original HMM {t1['original_hmm']:.6f}, within-block shuffle {t1['withinblock_shuffle_hmm']:.6f}, and matched cross-block shuffle {t1['matched_crossblock_hmm']:.6f} LL/trial.
+2. Non-Markov simulation: {simfrac:.1%} of 240 HMM refits to block-mixture-generated data had a mean diagonal at least as large as the corresponding observed value.
+3. Multiple initializations: median within-participant diagonal range {t3.diag_range.median():.4f}; median LL/trial range {t3.ll_range.median():.6f}.
+4. Block-plus-Markov: block mixture {block:.6f}, original HMM {t4['original_hmm']:.6f}, and hybrid {hy:.6f} LL/trial.
+5. Permutation analysis: mean frozen-HMM score {t5.ll_per_trial.mean():.6f}, with 95% range [{t5.ll_per_trial.quantile(.025):.6f}, {t5.ll_per_trial.quantile(.975):.6f}].
+6. Equivalence analysis: hybrid-minus-block mean {eq.mean_subject_delta:+.6f}, 95% CI [{eq.ci_low:+.6f}, {eq.ci_high:+.6f}], SESOI ±0.005.
+7. Chronological prediction: best model {t7.idxmax()} at {t7.max():.6f} LL/trial; HMM {t7.get('hmm',np.nan):.6f}.
+8. Cross-participant negative control: original HMM {t8['original_hmm']:.6f}; control {t8['crosssubject_hmm']:.6f}. This supports participant specificity, not Markov structure by itself.
 
-## 八项实验与结果
+## Interpretation boundary
 
-### 01 被试内匹配跨 block shuffle
-
-原始 HMM {t1['original_hmm']:.6f}；within-block shuffle {t1['withinblock_shuffle_hmm']:.6f}；matched cross-block shuffle {t1['matched_crossblock_hmm']:.6f} LL/trial。跨 block 打乱进一步下降，说明 block 组成是重要预测来源；但 shuffle 同时破坏多种顺序结构，不能单独证明 Markov。
-
-### 02 明确非 Markov 的生成数据反拟合 HMM
-
-从 exchangeable block mixture 生成 100 份数据；其中 20 份、12 名被试共 240 次 HMM 反拟合。生成机制没有 trial-to-trial 状态转移，但反拟合平均对角线仍为 {t2.mean_diagonal_transition.mean():.3f}，真实对应均值为 {t2.observed_mean_diagonal.mean():.3f}；{simfrac:.1%} 的反拟合达到或超过对应真实被试。高对角线可以由非 Markov block 异质性制造，因此矩阵外观本身不是充分证据；不过真实数据的粘滞性总体仍更强。
-
-### 03 四类初值稳健性
-
-sticky、IID-row、uniform、random 四类初值共 96 次拟合。被试内对角线范围中位数 {t3.diag_range.median():.4f}，LL/trial 范围中位数 {t3.ll_range.median():.6f}。大多数拟合不依赖 sticky 初值，但少数被试存在明显局部解，所以单名被试的精确转移概率不宜过度解释。
-
-### 04 Block + Markov hybrid 四折预测
-
-exchangeable block mixture {block:.6f}；原始三状态 HMM {t4['original_hmm']:.6f}；block+Markov {hy:.6f}。hybrid 相对纯 block 提高 {hy-block:+.6f} LL/trial，说明慢变 block 类型之上仍有可泛化的短时顺序信息。限制：hybrid 严格收敛 20/48，结果应结合 bootstrap 和时间前向测试。
-
-### 05 100 次置换与 10,000 次被试 bootstrap
-
-冻结原始 HMM 参数后，matched cross-block permutation 平均 {t5.ll_per_trial.mean():.6f}，95%置换范围 [{t5.ll_per_trial.quantile(.025):.6f}, {t5.ll_per_trial.quantile(.975):.6f}]。hybrid−block 的被试均值为 {boot.mean_subject_delta:+.6f}，95% CI [{boot.ci_low:+.6f}, {boot.ci_high:+.6f}]，12 名中 {int(boot.subjects_positive)} 名为正。hybrid 增益不是单个被试驱动。
-
-### 06 ±0.005 LL/trial 的等效界限
-
-hybrid−block 均值 {eq.mean_subject_delta:+.6f}，95% CI [{eq.ci_low:+.6f}, {eq.ci_high:+.6f}]。区间完全高于 0，因此不支持“零增益”；但下界低于 +0.005，因此尚不能保证真实增益至少达到预设实质阈值。
-
-### 07 严格时间前向预测
-
-仅用早期 blocks 训练预测后期 blocks：block+Markov {t7['block_plus_markov']:.6f}；exchangeable block mixture {t7['exchangeable_block_mixture']:.6f}；原 HMM {t7['hmm']:.6f}；prior-conditioned IID {t7['prior_conditioned_iid']:.6f}。hybrid 相对 block 提高 {chrono_gain:+.6f} LL/trial，是最贴近“只知道过去预测未来”的支持证据。
-
-### 08 跨被试匹配反应负对照
-
-原 HMM {t8['original_hmm']:.6f}；cross-subject control {t8['crosssubject_hmm']:.6f}，下降 {float(t8['original_hmm']-t8['crosssubject_hmm']):.6f} LL/trial。它强力支持被试特异性，但不是 Markov 存在性证据。
-
-## 最终解释
-
-最符合全部结果的描述不是“数据纯粹是 Markov”，也不是“完全没有 Markov”。更合理的是：**被试特异性和慢变 block 类型构成主要结构；在其上还叠加了较小但可泛化的 trial-level Markov 信息。** 原始三状态 HMM 没有显式表示 block 类型，所以把两种时间尺度混在一个转移矩阵里，导致矩阵看起来很粘，却在 held-out 预测上输给纯 block mixture。加入 block 层后，hybrid 同时容纳慢变结构和短时转移，随机四折与时间前向预测都优于纯 block 模型。
-
-仍需保留两点限制：第一，hybrid 的部分 EM 拟合未达到严格容差，建议未来做更多随机初值或更稳健的层级优化；第二，观测预测增益不能证明某个唯一心理机制，只说明前序反应在控制当前刺激、先验和 block 异质性后仍含可泛化信息。
-'''
- (ROOT/'Markov_test_整体中文报告.md').write_text(text,encoding='utf-8');return text
+A high diagonal transition matrix is not sufficient evidence for a first-order psychological process. A detectable Markov contribution requires stable improvement in held-out prediction after accounting for known conditions, block heterogeneity, initialization, non-Markov generated data, and genuinely forward prediction. Several hybrid fits did not meet the strict convergence criterion, and predictive improvement does not identify a unique psychological mechanism.
+"""
+ (ROOT/'Markov_test_overall_report.md').write_text(text,encoding='utf-8');return text
 
 def validate_all():
  rows=[]
