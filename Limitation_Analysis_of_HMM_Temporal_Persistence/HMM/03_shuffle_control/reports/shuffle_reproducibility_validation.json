@@ -1,0 +1,9 @@
+{
+  "fixed_seed_reproducible_sha256": true,
+  "shuffle_sha256": "24547b3c228b0628cbe34d8213fcc0cd6d662c9f7f967f69ca66dfe8a326d01a",
+  "full_row_binding_preserved": true,
+  "all_segment_counts_preserved": true,
+  "changed_fraction_nontrivial": 1.0,
+  "valid_trials": 83210,
+  "unique_original_rows": 83210
+}

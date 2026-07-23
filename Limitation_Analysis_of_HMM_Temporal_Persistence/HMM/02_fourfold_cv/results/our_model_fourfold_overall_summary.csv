@@ -1,0 +1,2 @@
+model,evaluation,n_trials,n_runs,n_subjects,total_log_likelihood,mean_held_out_ll_per_trial,bootstrap_ci_low,bootstrap_ci_high,bootstrap_standard_error,fold_mean,fold_standard_error,converged_fits,total_fits,monotonic_fits
+Our revised 3-state subject-specific soft-EM HMM,four-fold held-out run-level one-step-ahead,83210,388,12,-67447.33193811015,-0.8105676233398648,-0.8606506217129399,-0.76147011924733,0.025291408494330286,-0.8108410503517094,0.008554734033017358,48,48,48

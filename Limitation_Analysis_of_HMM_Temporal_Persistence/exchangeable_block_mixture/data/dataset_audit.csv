@@ -1,0 +1,3 @@
+data_version,n_trials,n_subjects,n_blocks,n_segments,n_folds,duplicate_trials
+original,83210,12,388,388,4,0
+shuffled,83210,12,388,388,4,0

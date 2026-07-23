@@ -1,0 +1,22 @@
+{
+  "block_definition": "subject_id + session_id + run_id",
+  "shuffle_definition": "subject_id + original_block_id + missing-delimited segment_id",
+  "number_of_subjects": 12,
+  "number_of_subject_session_pairs": 81,
+  "number_of_global_run_id_values": 44,
+  "number_of_model_blocks": 389,
+  "number_of_valid_segments": 388,
+  "block_length_min": 1,
+  "block_length_median": 215.0,
+  "block_length_max": 226,
+  "max_subjects_per_run_id": 12,
+  "max_sessions_per_run_id": 2,
+  "max_prior_std_unique_within_block": 1,
+  "max_prior_mean_unique_within_block": 1,
+  "max_experiment_unique_within_block": 1,
+  "trial_index_resets_to_one_in_all_blocks": true,
+  "raw_rows": 83213,
+  "valid_rows": 83210,
+  "missing_rows": 3,
+  "master_seed": 20260717
+}

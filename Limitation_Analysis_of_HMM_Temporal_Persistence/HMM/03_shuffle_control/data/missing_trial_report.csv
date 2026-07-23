@@ -1,0 +1,4 @@
+subject_id,experiment_id,experiment_name,session_id,run_id,trial_index,prior_std,prior_mean,motion_coherence,motion_direction,estimate_x,estimate_y,original_row_index,original_block_id,missing_reason
+4,11,data01_direction4priors,5,20,146,80,225,0.06,305,,,30043,s04_session005_run020,estimate_x_or_estimate_y_missing
+4,11,data01_direction4priors,5,23,188,80,225,0.06,275,,,30651,s04_session005_run023,estimate_x_or_estimate_y_missing
+10,12,data01_direction4priors,3,12,1,20,225,0.06,225,,,66604,s10_session003_run012,estimate_x_or_estimate_y_missing

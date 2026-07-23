@@ -1,0 +1,10 @@
+{
+  "row_count_preserved": true,
+  "original_trial_once": true,
+  "within_segment_only": true,
+  "most_nontrivial_segments_changed": true,
+  "gamma_sums_one": true,
+  "finite_model_outputs": true,
+  "transition_rows_sum_one": true,
+  "all_subjects_succeeded": true
+}

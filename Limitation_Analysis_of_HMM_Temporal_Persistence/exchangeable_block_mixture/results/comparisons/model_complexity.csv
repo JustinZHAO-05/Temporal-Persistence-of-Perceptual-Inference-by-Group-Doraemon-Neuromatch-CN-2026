@@ -1,0 +1,5 @@
+model_name,free_mixture_or_sequence_parameters,emission_kappa_parameters,total_subject_parameters,uses_trial_history,order_invariant
+subject_iid,2,7,9,False,True
+prior_conditioned_iid,8,7,15,False,True
+exchangeable_block_mixture,8,7,15,True,True
+hmm,8,7,15,True,False

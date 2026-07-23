@@ -1,0 +1,704 @@
+{
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\all_subject_summary_revised.csv": {
+    "exists": true,
+    "size": 4849,
+    "mtime_ns": 1784281936619116700,
+    "sha256": "f7f2b297bc22b4a528d5d1b370817e8b9e5797e850fea9d7bb6ead2c47547ce6"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\all_subject_transition_matrices_revised.csv": {
+    "exists": true,
+    "size": 2372,
+    "mtime_ns": 1784281936620129600,
+    "sha256": "bb97ab12558ff8c9f6a0d9a6ce32759f5c30830233d27192b8e842745ed9d831"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\diagnostic_subject2_comparison.csv": {
+    "exists": true,
+    "size": 1230,
+    "mtime_ns": 1784280799699325900,
+    "sha256": "e548db68a360f3e3bb0bdc5d8dab85450c3bb66806d6236f82fa2dff1c62700e"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\diagnostic_subject2_stepwise_likelihood.csv": {
+    "exists": true,
+    "size": 380194,
+    "mtime_ns": 1784280799697312600,
+    "sha256": "09fd0aa62da2b5d3a88446b1e99cf3c1511002a1b3ec5ad945de9f06af89ef59"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\failed_subjects_revised.csv": {
+    "exists": true,
+    "size": 43,
+    "mtime_ns": 1784281936619623200,
+    "sha256": "a5e71522b7d48b902c599d1db1d4c7b7999298f3cf5194c311588e415ab02335"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\missing_trial_report.csv": {
+    "exists": true,
+    "size": 287,
+    "mtime_ns": 1784281936621232800,
+    "sha256": "da3e38c32dd9ce62b73289d7b136b96e14b3c1398a253c2394ecc5db3e889bdd"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_01\\subject_01_log_likelihood_history.csv": {
+    "exists": true,
+    "size": 5628,
+    "mtime_ns": 1784281372447996300,
+    "sha256": "89205c9eb2c060b6d82d311d08a58c7032a788c7bde3ab433600524a8ea607a5"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_01\\subject_01_parameters.json": {
+    "exists": true,
+    "size": 2596,
+    "mtime_ns": 1784281372447996300,
+    "sha256": "b54de85542f5f27ec3df2f3664f25e9d113264e6b29d8f21c98d0b6262c021ae"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_01\\subject_01_trial_posteriors.csv": {
+    "exists": true,
+    "size": 1173504,
+    "mtime_ns": 1784281372446995500,
+    "sha256": "984bd1bbf710a15d39f7390e3fc05f43c2a7e01c2b3cd3748e8974b159c09f21"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_02\\subject_02_log_likelihood_history.csv": {
+    "exists": true,
+    "size": 3756,
+    "mtime_ns": 1784281418972899100,
+    "sha256": "f8db5b25cfbe3ce3180fd8bb8483f321457a7770952bc3fd313aa7cea461e05b"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_02\\subject_02_parameters.json": {
+    "exists": true,
+    "size": 2590,
+    "mtime_ns": 1784281418972899100,
+    "sha256": "edfbebd3547009659cffb8f9c429240a9af9858586fa7402d9270357ea0ecd74"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_02\\subject_02_trial_posteriors.csv": {
+    "exists": true,
+    "size": 1062627,
+    "mtime_ns": 1784281418971899400,
+    "sha256": "f73c94bbf15b5bb3abf08837e8c44d37add14798f45c6487e5019faf3d692882"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_03\\subject_03_log_likelihood_history.csv": {
+    "exists": true,
+    "size": 2820,
+    "mtime_ns": 1784281461093358900,
+    "sha256": "681381c7d63d1fa9214cd56f02e6a2641e2505b0248ddeefb86f55f2a646f24d"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_03\\subject_03_parameters.json": {
+    "exists": true,
+    "size": 2588,
+    "mtime_ns": 1784281461093358900,
+    "sha256": "5c2b2fe05cf7aed9dd49ab4425289d2625323422193e4b357eeea2c5821e9bfe"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_03\\subject_03_trial_posteriors.csv": {
+    "exists": true,
+    "size": 1288966,
+    "mtime_ns": 1784281461091140500,
+    "sha256": "3d542640d69fc779a3cbe43653938363abdba5c510e78f8763db328e0e54813e"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_04\\subject_04_log_likelihood_history.csv": {
+    "exists": true,
+    "size": 1613,
+    "mtime_ns": 1784281473417958400,
+    "sha256": "0d9cca640a47fe1cf3dddc70dc2384ef875ca21764e478d52364b1bd157e7f8f"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_04\\subject_04_parameters.json": {
+    "exists": true,
+    "size": 2587,
+    "mtime_ns": 1784281473418955000,
+    "sha256": "7ee9169d6dfba847797b1daaef9ad1831b849b13c72d95d0f2178508f31f93df"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_04\\subject_04_trial_posteriors.csv": {
+    "exists": true,
+    "size": 655242,
+    "mtime_ns": 1784281473417958400,
+    "sha256": "3d73e6dfd3f29c8efcbe7eeda520cc8f9af26e710647caa9bedd68cf0ee5e518"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_05\\subject_05_log_likelihood_history.csv": {
+    "exists": true,
+    "size": 14133,
+    "mtime_ns": 1784281595235729900,
+    "sha256": "fe5c53a39d0749e54a6055405f81ae23304c0ae3c745c97db49a2d06f81d3220"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_05\\subject_05_parameters.json": {
+    "exists": true,
+    "size": 2611,
+    "mtime_ns": 1784281595237738700,
+    "sha256": "8cd26b1215276722049eaba3ecd5607a99898d601609b02b4fc16417cd817496"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_05\\subject_05_trial_posteriors.csv": {
+    "exists": true,
+    "size": 793264,
+    "mtime_ns": 1784281595233725100,
+    "sha256": "47a14bfff4db89863dfc7678d810af8dbc536c8a71b761c5ec6af314a7b15fd5"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_06\\subject_06_log_likelihood_history.csv": {
+    "exists": true,
+    "size": 2722,
+    "mtime_ns": 1784281628230689000,
+    "sha256": "ab2ca8157fccf8cbde2b8d63962795c371819c0729ff38869ee6cb98f07d9326"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_06\\subject_06_parameters.json": {
+    "exists": true,
+    "size": 2594,
+    "mtime_ns": 1784281628231688200,
+    "sha256": "263a5db1eff596fc28988686dff62d9f0d987707c437f2a592a01a91a23e7a14"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_06\\subject_06_trial_posteriors.csv": {
+    "exists": true,
+    "size": 1038144,
+    "mtime_ns": 1784281628229686900,
+    "sha256": "381094e95e652b927b3823fc13a0596583c0afff017a39d6c11ea91d8778109b"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_07\\subject_07_log_likelihood_history.csv": {
+    "exists": true,
+    "size": 1987,
+    "mtime_ns": 1784281646467381100,
+    "sha256": "5ebad7fb98a84b10a1ab03d2ae6c6381674f99d263a0ae376d2a4bb39f5df09f"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_07\\subject_07_parameters.json": {
+    "exists": true,
+    "size": 2590,
+    "mtime_ns": 1784281646468383500,
+    "sha256": "06e48ffdff21b2cfb53c3e34e39f7de05eeaf5b49d08e95190a20bb493cad7c2"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_07\\subject_07_trial_posteriors.csv": {
+    "exists": true,
+    "size": 795409,
+    "mtime_ns": 1784281646466381200,
+    "sha256": "425e79235e70124de2bd3e25714e734f350243601ab8772218fd83ae8cae0bc5"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_08\\subject_08_log_likelihood_history.csv": {
+    "exists": true,
+    "size": 5247,
+    "mtime_ns": 1784281693238107800,
+    "sha256": "17df9a06f5787753e166c567cf2a4999c32344804aa8d032c57c327faf0e9881"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_08\\subject_08_parameters.json": {
+    "exists": true,
+    "size": 2588,
+    "mtime_ns": 1784281693240108300,
+    "sha256": "a5e6af40cb18a9e93796c2119b7dce00009aac7c5ceec23601052ac0764c1b18"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_08\\subject_08_trial_posteriors.csv": {
+    "exists": true,
+    "size": 785493,
+    "mtime_ns": 1784281693237115200,
+    "sha256": "2cf16df1301fdc901184d4716b0a256bea86b6ff277db02ec1b376597576a78a"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_09\\subject_09_log_likelihood_history.csv": {
+    "exists": true,
+    "size": 4714,
+    "mtime_ns": 1784281756688204600,
+    "sha256": "e1b604535aab9a53802b67432e75ef1f8533ccc1393340eb476849e96afbce21"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_09\\subject_09_parameters.json": {
+    "exists": true,
+    "size": 2587,
+    "mtime_ns": 1784281756690443200,
+    "sha256": "61aeb47423b274cbb300defcd3036ea5a4c1aa6ebce72e766226fec20ccfaef4"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_09\\subject_09_trial_posteriors.csv": {
+    "exists": true,
+    "size": 1177572,
+    "mtime_ns": 1784281756687204200,
+    "sha256": "8d84c109808b4b9c31c855e445c3fc195f1f8b59f70e0991837c3181eaf8703a"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_10\\subject_10_log_likelihood_history.csv": {
+    "exists": true,
+    "size": 14339,
+    "mtime_ns": 1784281885711516400,
+    "sha256": "5ae5d66bd7e491eb5fdf57c61b39e9eadd28bed916dd23fe9e16f1ae1516556e"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_10\\subject_10_parameters.json": {
+    "exists": true,
+    "size": 2589,
+    "mtime_ns": 1784281885713905600,
+    "sha256": "8e52ace68b1a35047dd84999c215fc68da7deedb3d543bc5082cd4cc330bd23c"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_10\\subject_10_trial_posteriors.csv": {
+    "exists": true,
+    "size": 823518,
+    "mtime_ns": 1784281885710515900,
+    "sha256": "e7533f786d03f1cba39fa07391d58d1c3227c9c265a2146fad2f5e2d6fe1a8fc"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_11\\subject_11_log_likelihood_history.csv": {
+    "exists": true,
+    "size": 1740,
+    "mtime_ns": 1784281903943046200,
+    "sha256": "8fd3c0422987e0ff4674e45623eacb992d262b925f7aeb21e7fb6be437e1af02"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_11\\subject_11_parameters.json": {
+    "exists": true,
+    "size": 2597,
+    "mtime_ns": 1784281903945541900,
+    "sha256": "55686f06acbd6bf07f88603726d61198685df241cc1458ef4769fe68d455ce18"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_11\\subject_11_trial_posteriors.csv": {
+    "exists": true,
+    "size": 892870,
+    "mtime_ns": 1784281903942040000,
+    "sha256": "7ca97a46ea74953c11a9ff5d34842c791c22a5ccd7d463b6a59c2e7f2300d8db"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_12\\subject_12_log_likelihood_history.csv": {
+    "exists": true,
+    "size": 3249,
+    "mtime_ns": 1784281936613236400,
+    "sha256": "791f6cd8ccdcb410195610b9d6ce12e2a52e6b60fe35afeabb152eae43e51db0"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_12\\subject_12_parameters.json": {
+    "exists": true,
+    "size": 2581,
+    "mtime_ns": 1784281936615300200,
+    "sha256": "5db51a457afae40370b3ac2b99aa15fc88d3e2310b827f8362c7ceb1dd10ffd3"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\results\\subject_12\\subject_12_trial_posteriors.csv": {
+    "exists": true,
+    "size": 884899,
+    "mtime_ns": 1784281936612217600,
+    "sha256": "701a6f59993756423c649ebc1127ec70859d91f321e2ed1351a98c758f264445"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\01_full_data_fit\\data\\data01_direction4priors.csv": {
+    "exists": true,
+    "size": 11090477,
+    "mtime_ns": 1783409583416830700,
+    "sha256": "c7675baf734d998b49e8537607e8b1435b0a775f7c1c562ad67b412de52059da"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\comparisons\\dwell_time_comparison.csv": {
+    "exists": true,
+    "size": 2441,
+    "mtime_ns": 1784292930885360800,
+    "sha256": "cdfe33ebfadf58203cf55e0ee30968414d022371586dcc85ad975703dad17e8e"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\comparisons\\original_vs_shuffled_full_fit.csv": {
+    "exists": true,
+    "size": 5528,
+    "mtime_ns": 1784292930878360900,
+    "sha256": "ed89401f9dc2460e17eca94ae516eac19e3a579054dbd5954c4e87f34a112f3d"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\comparisons\\switch_rate_comparison.csv": {
+    "exists": true,
+    "size": 578,
+    "mtime_ns": 1784292930887360000,
+    "sha256": "14902f59d02e7eee066ceb0448a899b6efc1c878db9c2ce2949274d55943c572"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\comparisons\\transition_comparison.csv": {
+    "exists": true,
+    "size": 6064,
+    "mtime_ns": 1784292930884366300,
+    "sha256": "97310e572db52254230de8210cf490796c23bbb6be22d4b4332f73dfb6ffeebb"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\all_subject_summary_shuffled.csv": {
+    "exists": true,
+    "size": 4735,
+    "mtime_ns": 1784292930641282900,
+    "sha256": "a40d0b1050e7553459d069ca544681e5e963056664f785664ccfd16c8f6a73aa"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\all_subject_transition_matrices_shuffled.csv": {
+    "exists": true,
+    "size": 2376,
+    "mtime_ns": 1784292930641282900,
+    "sha256": "8604961147f0e289dcb016b1932a36748c2a61d6c26141770dccc9caa2e989fc"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\all_subject_trial_predictions_shuffled.csv": {
+    "exists": true,
+    "size": 49064638,
+    "mtime_ns": 1784292930640282700,
+    "sha256": "875b3281ee6800c21c8e37025736c308a62132e632aec3997f6e92346653f494"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\failed_subjects_shuffled.csv": {
+    "exists": true,
+    "size": 37,
+    "mtime_ns": 1784292930642283200,
+    "sha256": "70a3ecb45e440d1155e5d048520c1e1f2448b526047ec1ac76a01bfff5e486d5"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_01\\log_likelihood_history.csv": {
+    "exists": true,
+    "size": 5119,
+    "mtime_ns": 1784292834902197200,
+    "sha256": "841208b8745a67264f61a488dbaeb2f6d6c25ff35ba7be04f1355de86034d7b2"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_01\\parameters.json": {
+    "exists": true,
+    "size": 687,
+    "mtime_ns": 1784292834901197900,
+    "sha256": "8497a94b97fa782a77e404e877c5c59729633ba50f21ba4728bc9d6dc1a73450"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_01\\transition_matrix.csv": {
+    "exists": true,
+    "size": 235,
+    "mtime_ns": 1784292834902197200,
+    "sha256": "a38137c41745717f9e9b593090d2f2a2d96b19c88d2134e9199488c8eb01aa8e"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_01\\trial_posteriors.csv": {
+    "exists": true,
+    "size": 4962374,
+    "mtime_ns": 1784292835036665500,
+    "sha256": "8a415fa57d3a1531979222e6d7be6c242a724d2fa6e8d36ea6e05c257b18ebc6"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_01\\trial_predictions.csv": {
+    "exists": true,
+    "size": 4962374,
+    "mtime_ns": 1784292835168232300,
+    "sha256": "8a415fa57d3a1531979222e6d7be6c242a724d2fa6e8d36ea6e05c257b18ebc6"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_02\\log_likelihood_history.csv": {
+    "exists": true,
+    "size": 7105,
+    "mtime_ns": 1784292849350124900,
+    "sha256": "57418c6f6e320cfeae23354f123426f168500e1840e8ec8cbff2772151260631"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_02\\parameters.json": {
+    "exists": true,
+    "size": 693,
+    "mtime_ns": 1784292849349130500,
+    "sha256": "770091908a0ae5b2bca03c60c8540db7b83812cc985c51f45e58b899313a10c1"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_02\\transition_matrix.csv": {
+    "exists": true,
+    "size": 236,
+    "mtime_ns": 1784292849351118500,
+    "sha256": "95b37fccd776e3b0ba8fc6423cfa3690029e3e7b51039f15c0ae988ba752cffd"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_02\\trial_posteriors.csv": {
+    "exists": true,
+    "size": 4444690,
+    "mtime_ns": 1784292849468778900,
+    "sha256": "6e67c07283d7c243647434c29dd904be872c8fe19dd0c16ee9296fab1694ceb2"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_02\\trial_predictions.csv": {
+    "exists": true,
+    "size": 4444690,
+    "mtime_ns": 1784292849586791400,
+    "sha256": "6e67c07283d7c243647434c29dd904be872c8fe19dd0c16ee9296fab1694ceb2"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_03\\log_likelihood_history.csv": {
+    "exists": true,
+    "size": 3046,
+    "mtime_ns": 1784292856974434300,
+    "sha256": "eb90329a728b65b849d2472c404a4f4ab88663810fe8481c3546865e47592aef"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_03\\parameters.json": {
+    "exists": true,
+    "size": 693,
+    "mtime_ns": 1784292856973351500,
+    "sha256": "9359c5977785d33d73dac46edac8273e86086f89d5e3e3d78aecdceb8273ffd1"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_03\\transition_matrix.csv": {
+    "exists": true,
+    "size": 238,
+    "mtime_ns": 1784292856975415700,
+    "sha256": "16884a581e5cf5ef16492ce256b16c13ed4665e96a69c8646bfda971a5781e07"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_03\\trial_posteriors.csv": {
+    "exists": true,
+    "size": 5449061,
+    "mtime_ns": 1784292857120659100,
+    "sha256": "5e989449fac1a41ca460c5d40008ad76df6942c4864faebc027d501b5b916c35"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_03\\trial_predictions.csv": {
+    "exists": true,
+    "size": 5449061,
+    "mtime_ns": 1784292857264693800,
+    "sha256": "5e989449fac1a41ca460c5d40008ad76df6942c4864faebc027d501b5b916c35"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_04\\log_likelihood_history.csv": {
+    "exists": true,
+    "size": 3098,
+    "mtime_ns": 1784292861059241900,
+    "sha256": "fc96237780cf426893e6068604bbfcca3fc13e775fec30544a6bd99569361d3b"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_04\\parameters.json": {
+    "exists": true,
+    "size": 693,
+    "mtime_ns": 1784292861058238700,
+    "sha256": "4cbdd606037b1b3f841a0068413558a6c0cd194379c888d28b2996070cbb1650"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_04\\transition_matrix.csv": {
+    "exists": true,
+    "size": 239,
+    "mtime_ns": 1784292861060237500,
+    "sha256": "5eb29b049828ed5d0db8210f684933e94bca614d05f2fd047e570001b00e3e26"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_04\\trial_posteriors.csv": {
+    "exists": true,
+    "size": 2717414,
+    "mtime_ns": 1784292861131443800,
+    "sha256": "47455fefdd33b411c04ee7b5db5a4556f4f05c499da5c695eb64c600ceb879a5"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_04\\trial_predictions.csv": {
+    "exists": true,
+    "size": 2717414,
+    "mtime_ns": 1784292861203978000,
+    "sha256": "47455fefdd33b411c04ee7b5db5a4556f4f05c499da5c695eb64c600ceb879a5"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_05\\log_likelihood_history.csv": {
+    "exists": true,
+    "size": 6327,
+    "mtime_ns": 1784292870562173800,
+    "sha256": "ce82eff9ee6b8e69f76452590db769f3721852fc404caf9a58a8a330fbf95731"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_05\\parameters.json": {
+    "exists": true,
+    "size": 689,
+    "mtime_ns": 1784292870561174200,
+    "sha256": "775ebf0b51e74b5c63a99a84239d7a0a4656bf7d22bea92a99d1e4ab927eabbf"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_05\\transition_matrix.csv": {
+    "exists": true,
+    "size": 240,
+    "mtime_ns": 1784292870562173800,
+    "sha256": "12bb2349e2ff142115f10ce968aff1e053d9c177d32e20dfbf59b89cbf4bf3a9"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_05\\trial_posteriors.csv": {
+    "exists": true,
+    "size": 3424012,
+    "mtime_ns": 1784292870654706600,
+    "sha256": "1c593a4ba602427aa19a0f4dfa9939f2531c4634617cd09678aed4f248ad581e"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_05\\trial_predictions.csv": {
+    "exists": true,
+    "size": 3424012,
+    "mtime_ns": 1784292870746706200,
+    "sha256": "1c593a4ba602427aa19a0f4dfa9939f2531c4634617cd09678aed4f248ad581e"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_06\\log_likelihood_history.csv": {
+    "exists": true,
+    "size": 4743,
+    "mtime_ns": 1784292879891387300,
+    "sha256": "2b1aa5b80d56e360f27429645dee7fc26dd3a32557a2591879bb0ba0ae8364bb"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_06\\parameters.json": {
+    "exists": true,
+    "size": 683,
+    "mtime_ns": 1784292879890387900,
+    "sha256": "3a412d009751274d05fcddcb17fe8e2c841dad74d1a2ac5d5632ced9e4b4cbe4"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_06\\transition_matrix.csv": {
+    "exists": true,
+    "size": 238,
+    "mtime_ns": 1784292879892399200,
+    "sha256": "5c1b825a21d355ac00599e56e7015103ab5d0c14b5f3e4eb9a85226afba40e19"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_06\\trial_posteriors.csv": {
+    "exists": true,
+    "size": 4562664,
+    "mtime_ns": 1784292880013980500,
+    "sha256": "3e893bcfd5eb4c6db5dddf5cd867ba159b017bb3f030cc75473430c50871a59d"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_06\\trial_predictions.csv": {
+    "exists": true,
+    "size": 4562664,
+    "mtime_ns": 1784292880134540900,
+    "sha256": "3e893bcfd5eb4c6db5dddf5cd867ba159b017bb3f030cc75473430c50871a59d"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_07\\log_likelihood_history.csv": {
+    "exists": true,
+    "size": 3401,
+    "mtime_ns": 1784292885119184000,
+    "sha256": "7c2d46224d2aaa87f5d5b106f36ebd3bd8100e9035f26b5d511b88f3291a5c2a"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_07\\parameters.json": {
+    "exists": true,
+    "size": 694,
+    "mtime_ns": 1784292885118184900,
+    "sha256": "5c70d3dc22c37a53d843c550f2893e84cb3a42e58473b45187e96b632e8ae060"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_07\\transition_matrix.csv": {
+    "exists": true,
+    "size": 237,
+    "mtime_ns": 1784292885120183800,
+    "sha256": "f479a94c598a1a907edb4dc49033c1bd2ea407051a6fed73965a807307812545"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_07\\trial_posteriors.csv": {
+    "exists": true,
+    "size": 3413137,
+    "mtime_ns": 1784292885211787700,
+    "sha256": "e9a0df13f3999f2c7786dd07842feec80e2580dff5645a71f4af576fd110a352"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_07\\trial_predictions.csv": {
+    "exists": true,
+    "size": 3413137,
+    "mtime_ns": 1784292885301918200,
+    "sha256": "e9a0df13f3999f2c7786dd07842feec80e2580dff5645a71f4af576fd110a352"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_08\\log_likelihood_history.csv": {
+    "exists": true,
+    "size": 5896,
+    "mtime_ns": 1784292894021969300,
+    "sha256": "87ccdd5c604aabff36412702483642cabd389f9fa54bd364bd248d288098d7c0"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_08\\parameters.json": {
+    "exists": true,
+    "size": 690,
+    "mtime_ns": 1784292894020976300,
+    "sha256": "c21fab33b5a3e94f139c94efee9187b0090ab90d7066d835392dd84a5e894edb"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_08\\transition_matrix.csv": {
+    "exists": true,
+    "size": 234,
+    "mtime_ns": 1784292894022968800,
+    "sha256": "dc145b139cd9e922cd6c098206258e691fc9ff5b4e1585c42c3f813e9f9eef73"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_08\\trial_posteriors.csv": {
+    "exists": true,
+    "size": 3394628,
+    "mtime_ns": 1784292894112616900,
+    "sha256": "e82700c6f772f0b9b4db34f215434899101d25528cfc7649f67e2c7643eee292"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_08\\trial_predictions.csv": {
+    "exists": true,
+    "size": 3394628,
+    "mtime_ns": 1784292894201414400,
+    "sha256": "e82700c6f772f0b9b4db34f215434899101d25528cfc7649f67e2c7643eee292"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_09\\log_likelihood_history.csv": {
+    "exists": true,
+    "size": 7118,
+    "mtime_ns": 1784292909744394000,
+    "sha256": "fffd1a923edbcb53e569831eb0a72d08ff638523464205aed9e5f22da8fd541e"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_09\\parameters.json": {
+    "exists": true,
+    "size": 690,
+    "mtime_ns": 1784292909743395500,
+    "sha256": "3ccf075e611102e8985e932be3d57e6c792f088940be6ae5432e23025d3b32b3"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_09\\transition_matrix.csv": {
+    "exists": true,
+    "size": 232,
+    "mtime_ns": 1784292909745393100,
+    "sha256": "0b8522fb99ca4813cacf197487b67f730c5e40dafcde638683b080a5b97a107f"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_09\\trial_posteriors.csv": {
+    "exists": true,
+    "size": 5216760,
+    "mtime_ns": 1784292909885327500,
+    "sha256": "598f104fa7ef56ed6c99b3f334e166c1758e0f4a5954f6e57cfc911a228f7de8"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_09\\trial_predictions.csv": {
+    "exists": true,
+    "size": 5216760,
+    "mtime_ns": 1784292910025001000,
+    "sha256": "598f104fa7ef56ed6c99b3f334e166c1758e0f4a5954f6e57cfc911a228f7de8"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_10\\log_likelihood_history.csv": {
+    "exists": true,
+    "size": 7127,
+    "mtime_ns": 1784292920983627800,
+    "sha256": "eabc64ab5782e647dd3f3c716cc7ca4e2ab0ac3992f01c3232ca4bc5cb343bde"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_10\\parameters.json": {
+    "exists": true,
+    "size": 691,
+    "mtime_ns": 1784292920983627800,
+    "sha256": "9511e7bbcb6228a3319953566871fefd50b62563bb0db5a9843dc5efd230bb56"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_10\\transition_matrix.csv": {
+    "exists": true,
+    "size": 235,
+    "mtime_ns": 1784292920985621500,
+    "sha256": "073de2def459d624b489cc7c54d0164a2a85e886ac8415f76f2078e6d183ec10"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_10\\trial_posteriors.csv": {
+    "exists": true,
+    "size": 3630938,
+    "mtime_ns": 1784292921081142800,
+    "sha256": "a65abdac2292dbde93eea79fa451c3c167bdf69986562c26970797d1b165e8d1"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_10\\trial_predictions.csv": {
+    "exists": true,
+    "size": 3630938,
+    "mtime_ns": 1784292921181967500,
+    "sha256": "a65abdac2292dbde93eea79fa451c3c167bdf69986562c26970797d1b165e8d1"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_11\\log_likelihood_history.csv": {
+    "exists": true,
+    "size": 2458,
+    "mtime_ns": 1784292925426813100,
+    "sha256": "d1b1d44355fae48165f263d661c89946b47525dc7d4fab4cc524b698d4140e64"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_11\\parameters.json": {
+    "exists": true,
+    "size": 697,
+    "mtime_ns": 1784292925426813100,
+    "sha256": "7db222a874c84cce1b21e306b7b33db421e2d5ee12825d11afe90267b3b9ba00"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_11\\transition_matrix.csv": {
+    "exists": true,
+    "size": 240,
+    "mtime_ns": 1784292925427812100,
+    "sha256": "6e3507133ff27464d5f8906268630bc2762e214aaaa6d1a2dfb0f3ea4ef4daac"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_11\\trial_posteriors.csv": {
+    "exists": true,
+    "size": 3951572,
+    "mtime_ns": 1784292925535458300,
+    "sha256": "9f2fa2fa7cae5238794609b23d3402db7249d2d0127a91c037b1748774c98a91"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_11\\trial_predictions.csv": {
+    "exists": true,
+    "size": 3951572,
+    "mtime_ns": 1784292925644041200,
+    "sha256": "9f2fa2fa7cae5238794609b23d3402db7249d2d0127a91c037b1748774c98a91"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_12\\log_likelihood_history.csv": {
+    "exists": true,
+    "size": 2014,
+    "mtime_ns": 1784292929120739000,
+    "sha256": "bdf6ec90032f11903b12f0fdce09ff54db2838737ff2f635db51eb948a81b264"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_12\\parameters.json": {
+    "exists": true,
+    "size": 689,
+    "mtime_ns": 1784292929119739100,
+    "sha256": "f1f18590f0a6a152fffdc41d77566bee1ed00bf2a8302f8b940c3fb9b00e36b9"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_12\\transition_matrix.csv": {
+    "exists": true,
+    "size": 234,
+    "mtime_ns": 1784292929121750500,
+    "sha256": "de6259a5dd736d5c5519bd49942be09d1b1a845aff64b64949373d05a3dbafe8"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_12\\trial_posteriors.csv": {
+    "exists": true,
+    "size": 3905264,
+    "mtime_ns": 1784292929224471400,
+    "sha256": "13fdd62f58455bcb4be62545a7aae4ac41df9b190fb3a78f610c0e62b26c63e1"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\full_fit\\subject_12\\trial_predictions.csv": {
+    "exists": true,
+    "size": 3905264,
+    "mtime_ns": 1784292929329097200,
+    "sha256": "13fdd62f58455bcb4be62545a7aae4ac41df9b190fb3a78f610c0e62b26c63e1"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\heldout\\all_subject_4fold_predictions_original.csv": {
+    "exists": true,
+    "size": 51199414,
+    "mtime_ns": 1784293514958514500,
+    "sha256": "9adbbb193cef932a3a435db6d1c4fbb619e2021329b7017ce2a81fc5eb18442c"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\heldout\\all_subject_4fold_predictions_shuffled.csv": {
+    "exists": true,
+    "size": 51884823,
+    "mtime_ns": 1784293516409271400,
+    "sha256": "21748d8c777df51df8522f1cbb50e1fd97c92ecb53f246ca8b2a8daad85ecf6b"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\heldout\\failed_folds.csv": {
+    "exists": true,
+    "size": 58,
+    "mtime_ns": 1784293516412273400,
+    "sha256": "16ca1700c24498085c300dfac1399b3f53058d116283bb3b45e8b1e416547e1a"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\heldout\\fold_level_results.csv": {
+    "exists": true,
+    "size": 70792,
+    "mtime_ns": 1784293516411273700,
+    "sha256": "5a5e496c960f87b09fc1f3296b49e255cb642bb732eb173c1d4df5ee5b4b3349"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\heldout\\original_vs_shuffled_heldout_comparison.csv": {
+    "exists": true,
+    "size": 1809,
+    "mtime_ns": 1784293516420199700,
+    "sha256": "5f9c00f7c76b00ff12fb2aaee4251006b310796046bc752e1df1938e68df3e10"
+  },
+  "D:\\neuromatch_pod_work\\HMM_me\\github_contribution\\HMM\\03_shuffle_control\\results\\heldout\\subject_level_heldout_summary.csv": {
+    "exists": true,
+    "size": 4184,
+    "mtime_ns": 1784293516418195700,
+    "sha256": "34b2ef5624d6c5a201008ec007140254904c16b68e89cbf91a1c9db89714e9a0"
+  }
+}

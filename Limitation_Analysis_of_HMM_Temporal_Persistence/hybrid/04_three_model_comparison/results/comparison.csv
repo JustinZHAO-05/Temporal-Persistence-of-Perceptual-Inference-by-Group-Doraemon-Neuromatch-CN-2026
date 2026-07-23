@@ -1,0 +1,4 @@
+model,ll_per_trial
+exchangeable_block_mixture,-0.794567900647745
+original_hmm,-0.8105727897298564
+block_plus_markov,-0.7870890757666512

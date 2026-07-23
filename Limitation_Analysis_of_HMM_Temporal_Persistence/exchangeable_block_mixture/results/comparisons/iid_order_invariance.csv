@@ -1,0 +1,4 @@
+model_name,max_abs_fold_total_ll_difference,overall_total_ll_difference,order_invariant_pass
+subject_iid,4.547473508864641e-13,-1.1368683772161603e-12,True
+prior_conditioned_iid,4.547473508864641e-13,1.4779288903810084e-12,True
+exchangeable_block_mixture,4.547473508864641e-13,2.9558577807620168e-12,True

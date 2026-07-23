@@ -1,0 +1,13 @@
+{
+  "each_original_trial_once": true,
+  "each_shuffled_trial_once": true,
+  "same_fold_per_trial": true,
+  "48_folds_per_version": true,
+  "all_fold_rows_present": true,
+  "finite_test_ll": true,
+  "posterior_sums_one": true,
+  "first_trial_pi_independent": true,
+  "test_parameters_fixed_from_training": true,
+  "no_test_em_updates": true,
+  "all_subjects_compared": true
+}
