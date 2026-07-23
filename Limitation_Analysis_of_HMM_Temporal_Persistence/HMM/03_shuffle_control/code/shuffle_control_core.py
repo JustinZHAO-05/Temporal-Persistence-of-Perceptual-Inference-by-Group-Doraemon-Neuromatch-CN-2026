@@ -479,9 +479,9 @@ def make_figures(comp,fold,ot,st):
 def write_report(comp,fit,prep):
     full=pd.read_csv(COMP_DIR/"original_vs_shuffled_full_fit.csv"); failed=pd.read_csv(HELD_DIR/"failed_folds.csv")
     delta=comp.delta_test_ll_per_trial; mean_o=(fit.query("data_version=='original'").test_total_log_likelihood.sum()/fit.query("data_version=='original'").n_test_trials.sum()); mean_s=(fit.query("data_version=='shuffled'").test_total_log_likelihood.sum()/fit.query("data_version=='shuffled'").n_test_trials.sum())
-    if mean_o>mean_s+0.005: conclusion="原始顺序的 held-out 表现明显更好，结果支持 trial 顺序提供额外预测信息。"
-    elif abs(mean_o-mean_s)<=0.005: conclusion="两种顺序的 held-out 表现接近，当前表现可能主要来自单 trial emissions，而非额外 Markov 顺序信息。"
-    else: conclusion="shuffle 的 held-out 表现更好；这不能支持原始 Markov 结构，需要进一步检查模型设定或过拟合。"
+    if mean_o>mean_s+0.005: conclusion="The original order has better held-out performance, supporting additional predictive information in trial order."
+    elif abs(mean_o-mean_s)<=0.005: conclusion="Held-out performance is similar across orders; prediction may primarily reflect trial-level emissions rather than additional Markov order information."
+    else: conclusion="The shuffled order performs better; this does not support the original Markov structure and warrants checking model specification or overfitting."
     report=f"""# Trial-order shuffle control report
 
 ## Design and reproducibility

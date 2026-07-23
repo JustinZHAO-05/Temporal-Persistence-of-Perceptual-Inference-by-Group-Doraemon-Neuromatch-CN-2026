@@ -40,7 +40,7 @@
 
 ## Conclusion
 
-原始顺序的 held-out 表现明显更好，结果支持 trial 顺序提供额外预测信息。
+The original order had better held-out performance, supporting additional predictive information in trial order.
 
 ## Outputs
 
