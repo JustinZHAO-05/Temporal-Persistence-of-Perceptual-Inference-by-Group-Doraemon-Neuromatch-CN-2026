@@ -1,0 +1,8 @@
+parameter,family,condition,condition_label,value
+sensory_kappa,Sensory,coherence_0.06,Coherence 0.06,1.6979078840989352
+sensory_kappa,Sensory,coherence_0.12,Coherence 0.12,4.835141500106237
+sensory_kappa,Sensory,coherence_0.24,Coherence 0.24,13.832882226258723
+prior_kappa,Prior,prior_std_10,Prior SD 10,22.354505627393493
+prior_kappa,Prior,prior_std_20,Prior SD 20,12.671320386640884
+prior_kappa,Prior,prior_std_40,Prior SD 40,6.839193310429737
+prior_kappa,Prior,prior_std_80,Prior SD 80,2.446196523123481

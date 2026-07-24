@@ -1,0 +1,10 @@
+previous_state,next_state,probability
+S_sensory,S_sensory,0.9373917042887728
+S_sensory,P_prior,0.0240816094264553
+S_sensory,L_lapse,0.0385266862847718
+P_prior,S_sensory,0.0362285936367165
+P_prior,P_prior,0.9636450881714697
+P_prior,L_lapse,0.0001263181918136
+L_lapse,S_sensory,0.3151743249416464
+L_lapse,P_prior,2.570160696962552e-05
+L_lapse,L_lapse,0.684799973451384

@@ -1,0 +1,17 @@
+field,origin,meaning,unit,analysis_role
+estimate_x,CSV,Horizontal component of the response direction vector,unitless,Used with estimate_y to recover the reported angle
+estimate_y,CSV,Vertical component of the response direction vector,unitless,Used with estimate_x to recover the reported angle
+estimate_deg,derived,Reported motion direction,degrees from 0 inclusive to 360 exclusive,"Two-argument arctangent of the response coordinates, wrapped to the circle"
+motion_direction,CSV,True coherent motion direction on the trial,degrees,Sensory-state emission center
+motion_coherence,CSV,Fraction of dots moving coherently,proportion,"0.06, 0.12, or 0.24; controls sensory reliability"
+prior_mean,CSV,Center of the block direction distribution,degrees,Fixed at 225 degrees in the analyzed experiment
+prior_std,CSV,Width of the block direction distribution,degrees,"10, 20, 40, or 80 degrees; smaller means a sharper prior"
+subject_id,CSV,Participant identifier,identifier,12 participants
+session_id,CSV,Experimental session identifier,identifier,Sessions occurred on separate days in the original experiment
+run_id,CSV,Block/run identifier,identifier,Defines the temporal sequence boundary
+trial_index,CSV,Within-run trial order,count,Preserves temporal ordering for sequential models
+response_error,derived,Shortest signed response minus stimulus angle,radians or degrees,Always wrapped from minus 180 inclusive to 180 exclusive degrees
+conflict,derived,Shortest absolute stimulus-prior separation,radians or degrees,Current prior-sensory disagreement
+previous_error,derived,Absolute response error on the preceding trial in the same run,radians,Never crosses a run boundary
+previous_conflict,derived,Stimulus-prior conflict on the preceding trial in the same run,radians,Never crosses a run boundary
+previous_coherence,derived,Motion coherence on the preceding trial in the same run,proportion,Never crosses a run boundary

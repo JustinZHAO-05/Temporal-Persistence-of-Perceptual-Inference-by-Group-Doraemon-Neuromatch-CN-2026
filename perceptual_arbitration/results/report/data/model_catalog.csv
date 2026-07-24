@@ -1,0 +1,10 @@
+model,label,temporal_structure,core_mechanism,fitting_method,parameters,result_status
+Basic_Bayesian,Basic Bayesian observer,No,"Multiplies likelihood and prior, then reads out a posterior",Grid-based likelihood optimization,not counted in authoritative run,context only; not refitted
+Original_condition_switching,Original condition-dependent Switching observer,No,Chooses prior or sensory report from relative precision,Grid-based likelihood optimization,not counted in authoritative run,context only; not refitted
+Independent_switching,Independent Switching mixture,No,Three trial-independent sensory/prior/lapse components,EM with deterministic multistart,9,fitted
+Serial_stim_independent_switching,Serial stimulus baseline,One-back center shift,Independent mixture plus previous-stimulus attraction,L-BFGS-B multistart,10,fitted
+Serial_resp_independent_switching,Serial response baseline,One-back center shift,Independent mixture plus previous-response attraction,L-BFGS-B multistart,10,fitted
+Serial_both_independent_switching,Serial stimulus + response baseline,One-back center shift,Independent mixture plus both attraction terms,L-BFGS-B multistart,11,fitted
+HMM_static,Static Hidden Markov Switching Observer,Markov,Three emissions connected by one transition matrix,Baum-Welch EM with deterministic multistart,15,fitted
+Covariate_HMM,Covariate-dependent HMM,Covariate-dependent Markov,Transition probabilities vary with current and previous-trial variables,EM plus regularized multinomial transition M-step,51,fitted
+Subject_level_HMM,Subject-level static HMM,Markov within subject,One separately fitted static HMM per participant,Baum-Welch EM; empirical-Bayes group summary,not counted in authoritative run,fitted

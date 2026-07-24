@@ -1,0 +1,12 @@
+parameter,condition,value
+sensory_kappa,coherence_0.06,1.6979078840989352
+sensory_kappa,coherence_0.12,4.8351415001062374
+sensory_kappa,coherence_0.24,13.832882226258723
+prior_kappa,prior_std_10,22.354505627393493
+prior_kappa,prior_std_20,12.671320386640883
+prior_kappa,prior_std_40,6.839193310429737
+prior_kappa,prior_std_80,2.4461965231234806
+initial_probability,S_sensory,0.5256543986265967
+initial_probability,P_prior,0.3354180093062573
+initial_probability,L_lapse,0.13892759206714614
+full_data_loglik,HMM_static,-70104.52481440043

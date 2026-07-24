@@ -1,0 +1,2 @@
+seq_id,selection_rule,median_delta_ll_per_trial,sequence_delta_ll_per_trial,n_trials
+129,closest sequence-level HMM improvement to the median,0.03401264372545937,0.033931036153174166,215

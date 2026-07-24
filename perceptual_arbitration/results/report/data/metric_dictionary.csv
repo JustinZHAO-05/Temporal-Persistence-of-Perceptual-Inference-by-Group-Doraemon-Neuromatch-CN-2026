@@ -1,0 +1,12 @@
+metric,definition,direction,caveat
+Held-out LL/trial,Average log predictive density assigned to held-out responses,"Higher, or less negative, is better",Primary predictive comparison
+Predictive-density ratio,Exponential of the per-trial log-likelihood difference,Above 1 favors the comparison model,"Geometric average density ratio, not percent accuracy"
+AIC,Twice the parameter count minus twice the in-sample log likelihood,Lower is better,In-sample fit penalized by 2 per free parameter
+BIC,Log sample size times parameter count minus twice the in-sample log likelihood,Lower is better,Stronger sample-size-dependent complexity penalty
+Sequence-bootstrap CI,2.5th and 97.5th percentiles after resampling run sequences,Excluding zero supports a stable direction,Preserves the temporal clustering unit
+Bootstrap nonpositive tail proportion,Fraction of bootstrap differences at or below zero,Smaller means fewer resamples reverse the effect,"Directional bootstrap tail proportion, not a standalone classical p-value"
+Self-transition,Diagonal entry of the fitted transition matrix,Closer to 1 means greater state persistence,Compare with the chain's stationary probability
+Implied run length,Reciprocal of one minus self-transition probability,Expected trials in a homogeneous geometric run,"A teaching translation, not the posterior MAP run statistic"
+Prior-like rate,Fraction of responses closer to the prior center than to the current stimulus,Larger means more responses lie closer to the prior,"Descriptive classification, not a recovered latent state"
+PPC interval,2.5th to 97.5th percentile across complete simulated datasets,Coverage indicates compatibility with simulated variability,Intervals use 100 complete simulated datasets per model
+Decoded S/P-only PPC,PPC metrics after symmetrically excluding smoothed marginal-MAP lapse classifications,Compare with the complete-model PPC rather than reading it alone,"Uses the complete response sequence, is not Viterbi decoding or an online lapse detector, and does not replace the all-trial PPC"

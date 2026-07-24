@@ -1,0 +1,215 @@
+{
+  "checkpoint_hashes_after": {
+    "covariate_hmm": "a542ba3ad3e1d356d14bb8868054912e9b4b589ebc0af3d20d0b1f788783e862",
+    "static_hmm": "7283a262997d5eab4d7f2168ca603465dcfdcfd161beae792095eafb47464c45"
+  },
+  "checkpoint_hashes_before": {
+    "covariate_hmm": "a542ba3ad3e1d356d14bb8868054912e9b4b589ebc0af3d20d0b1f788783e862",
+    "static_hmm": "7283a262997d5eab4d7f2168ca603465dcfdcfd161beae792095eafb47464c45"
+  },
+  "exclusion_rule": "decoded_state_map_equals_L_lapse",
+  "files": [
+    {
+      "bytes": 59067,
+      "columns": 7,
+      "path": "covariate_hmm_posterior_predictive_sp_classification_confusion.csv",
+      "rows": 900,
+      "sha256": "0444a7c4a0cf32d74c26ec6230b42448667056cb7cfc2a477cfe26edd6542ff0"
+    },
+    {
+      "bytes": 177794,
+      "columns": 11,
+      "path": "covariate_hmm_posterior_predictive_sp_condition_summary.csv",
+      "rows": 1212,
+      "sha256": "2277ae23d3bb7efb92d2664c1a4316c942d1b75817ee9200ac35e03c392e8376"
+    },
+    {
+      "bytes": 314,
+      "columns": 5,
+      "path": "covariate_hmm_posterior_predictive_sp_coverage.csv",
+      "rows": 5,
+      "sha256": "807c1eb53e2b9947ebf3c72dc8e639e1b5f226798bc7d37a961b4a75469c26f5"
+    },
+    {
+      "bytes": 72902,
+      "columns": 12,
+      "path": "covariate_hmm_posterior_predictive_sp_histogram_intervals.csv",
+      "rows": 576,
+      "sha256": "f2c33d5a558f08b21d656ae36e0afe25b72a4e2aea19800ec9c769d622e9f02e"
+    },
+    {
+      "bytes": 4652689,
+      "columns": 10,
+      "path": "covariate_hmm_posterior_predictive_sp_histograms.csv",
+      "rows": 58176,
+      "sha256": "905c8b9cc5c10b9a2fa2453f88e3f96e128b82cbc12c1f28d204c0a0473bd140"
+    },
+    {
+      "bytes": 9820,
+      "columns": 11,
+      "path": "covariate_hmm_posterior_predictive_sp_metric_intervals.csv",
+      "rows": 60,
+      "sha256": "617c1422491d808183c95fab4791d283536c1434efadd973879e278fba5cca16"
+    },
+    {
+      "bytes": 323576,
+      "columns": 10,
+      "path": "covariate_hmm_posterior_predictive_sp_retention.csv",
+      "rows": 3636,
+      "sha256": "0fbe3593502414b31db8a6c7ddee6e19f08f22bafc1e7ccb68f484befd0548f4"
+    },
+    {
+      "bytes": 2039,
+      "columns": 12,
+      "path": "covariate_hmm_posterior_predictive_sp_retention_summary.csv",
+      "rows": 12,
+      "sha256": "82e11233d4f418d39387629b078f951fc50c5e23564b7191a4f2646a98a44628"
+    },
+    {
+      "bytes": 55777,
+      "columns": 7,
+      "path": "posterior_predictive_sp_classification_confusion.csv",
+      "rows": 900,
+      "sha256": "3493255fa11a0d0571975eac5bf04634f21081c82dc860097713b41293b7ec41"
+    },
+    {
+      "bytes": 174202,
+      "columns": 11,
+      "path": "posterior_predictive_sp_condition_summary.csv",
+      "rows": 1212,
+      "sha256": "fa8b9bf3c8ba9a33db12b1c7c5252585b86d6e6d3a1f2ffd6497ca3c5dd875f7"
+    },
+    {
+      "bytes": 225,
+      "columns": 5,
+      "path": "posterior_predictive_sp_coverage.csv",
+      "rows": 5,
+      "sha256": "8b8f67e309a6f4e45523018fa631294255fd1de8144916dbec1da8d69e2b88ab"
+    },
+    {
+      "bytes": 72112,
+      "columns": 12,
+      "path": "posterior_predictive_sp_histogram_intervals.csv",
+      "rows": 576,
+      "sha256": "8aa9b35305c79e16b91b28d1455b52a44e40a9fc899b4d0632728ed257ca93d8"
+    },
+    {
+      "bytes": 4518801,
+      "columns": 10,
+      "path": "posterior_predictive_sp_histograms.csv",
+      "rows": 58176,
+      "sha256": "7c741a028e6e8fed13c563f2efa050b2d2812ee87053c8d9049c62a3887ed62d"
+    },
+    {
+      "bytes": 9600,
+      "columns": 11,
+      "path": "posterior_predictive_sp_metric_intervals.csv",
+      "rows": 60,
+      "sha256": "54dd5bcfd93f03dfc3ee66e8a3ca73cd37e427ff83d38d6fc2dc15d618d643c3"
+    },
+    {
+      "bytes": 114579,
+      "columns": 7,
+      "path": "posterior_predictive_sp_model_classification_confusion.csv",
+      "rows": 1800,
+      "sha256": "2f9ad989d3c300a5561830aa8b3a61fc1447006f862c3ad993d0fd3e6427b35e"
+    },
+    {
+      "bytes": 498,
+      "columns": 5,
+      "path": "posterior_predictive_sp_model_coverage.csv",
+      "rows": 10,
+      "sha256": "f7f31e562f427d33e8490152d7f20c2a10cd604e85208ff8c81cc14cfd429aaf"
+    },
+    {
+      "bytes": 143258,
+      "columns": 12,
+      "path": "posterior_predictive_sp_model_histogram_intervals.csv",
+      "rows": 1152,
+      "sha256": "928c7f917b9d5b2432b0685d42a2d6c47847c1672d7ef15e4c9bcd96a44b3b2e"
+    },
+    {
+      "bytes": 19211,
+      "columns": 11,
+      "path": "posterior_predictive_sp_model_metric_intervals.csv",
+      "rows": 120,
+      "sha256": "292b05859678d502382be792b51e3538c10caf8da91f33450becc1328652fcbc"
+    },
+    {
+      "bytes": 636232,
+      "columns": 10,
+      "path": "posterior_predictive_sp_model_retention.csv",
+      "rows": 7272,
+      "sha256": "93013c4b0d1cf9ae249046d3eaa5aa631f3be56043fbc4138b05c4137d6bc53b"
+    },
+    {
+      "bytes": 3790,
+      "columns": 12,
+      "path": "posterior_predictive_sp_model_retention_summary.csv",
+      "rows": 24,
+      "sha256": "85899577fe78b612561aa088cbe888ac1fc0466a7402e8df2c71ff1ee529fb56"
+    },
+    {
+      "bytes": 313237,
+      "columns": 10,
+      "path": "posterior_predictive_sp_retention.csv",
+      "rows": 3636,
+      "sha256": "e84775d81fec57e609fa948ca1c7bdeba17803f82f7dc5a2565d6cf783dfe101"
+    },
+    {
+      "bytes": 1987,
+      "columns": 12,
+      "path": "posterior_predictive_sp_retention_summary.csv",
+      "rows": 12,
+      "sha256": "739b4495272c5ec16e95d918ed3c33833571b43efdc43a50bab6cc99384e74e5"
+    }
+  ],
+  "fit_independent": true,
+  "generated_at": "2026-07-17T14:18:59.066067+00:00",
+  "models": [
+    "static_hmm",
+    "covariate_hmm"
+  ],
+  "n_simulations": 100,
+  "parent_run_key": "d85588f2b8521e3997f7bbdc44f55849ae2d8461716308b53fb27127ca1e4c77",
+  "raw_ppc_hashes_after": {
+    "covariate_hmm": "133c6d05fe1386b2ebfa40bda0b5fb1258170f1a0db7277ec93c9fcde0a1e7af",
+    "static_hmm": "33abfa4b238b55e08b78316f3dd554dbacccfa4633f1575e13f0d6ffc1e4c5e4"
+  },
+  "raw_ppc_hashes_before": {
+    "covariate_hmm": "133c6d05fe1386b2ebfa40bda0b5fb1258170f1a0db7277ec93c9fcde0a1e7af",
+    "static_hmm": "33abfa4b238b55e08b78316f3dd554dbacccfa4633f1575e13f0d6ffc1e4c5e4"
+  },
+  "response_simulation_reused": true,
+  "run_length_ppc_modified": false,
+  "schema_version": 1,
+  "seed": 42,
+  "source_ppc_key": "81945776f79a7c45b1fedcbef8e16dd05a3704d4a53ab7be0e66f576dfd00a8a",
+  "sp_key": "b1188404f060330f100f88f38f3406829a97fdedcbfe48797745c196f61e21fb",
+  "state_path_summary": "smoothed_marginal_argmax_not_viterbi",
+  "status": "complete",
+  "validation": {
+    "covariate_hmm": {
+      "draws": 100,
+      "max_posterior_row_sum_error": 4.440892098500626e-16,
+      "max_simulated_previous_error_error_rad": 2.6645352591003757e-15,
+      "method": "smoothed_marginal_argmax_not_viterbi",
+      "minimum_retained_condition_count": 2239,
+      "observed_excluded_lapse_trials": 8964,
+      "observed_retained_trials": 74246,
+      "rows_per_draw": 83210,
+      "sequences_per_draw": 388
+    },
+    "static_hmm": {
+      "draws": 100,
+      "max_posterior_row_sum_error": 4.440892098500626e-16,
+      "max_simulated_previous_error_error_rad": 0.0,
+      "method": "smoothed_marginal_argmax_not_viterbi",
+      "minimum_retained_condition_count": 2156,
+      "observed_excluded_lapse_trials": 4169,
+      "observed_retained_trials": 79041,
+      "rows_per_draw": 83210,
+      "sequences_per_draw": 388
+    }
+  }
+}
