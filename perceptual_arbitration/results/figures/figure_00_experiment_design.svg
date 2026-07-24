@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="728.39952pt" height="253.19952pt" viewBox="0 0 728.39952 253.19952" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-07-17T22:19:01.030181</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 253.19952 
+L 728.39952 253.19952 
+L 728.39952 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 21.47999 156.4497 
+L 132.149916 156.4497 
+L 132.149916 78.093608 
+L 21.47999 78.093608 
+z
+" clip-path="url(#pa19500daa7)" style="fill: #c9d8e6; stroke: #252a31; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 167.849892 156.4497 
+L 278.519818 156.4497 
+L 278.519818 78.093608 
+L 167.849892 78.093608 
+z
+" clip-path="url(#pa19500daa7)" style="fill: #f7e3c1; stroke: #252a31; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 314.219794 156.4497 
+L 424.889719 156.4497 
+L 424.889719 78.093608 
+L 314.219794 78.093608 
+z
+" clip-path="url(#pa19500daa7)" style="fill: #c9d8e6; stroke: #252a31; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 460.589695 156.4497 
+L 571.259621 156.4497 
+L 571.259621 78.093608 
+L 460.589695 78.093608 
+z
+" clip-path="url(#pa19500daa7)" style="fill: #f7e3c1; stroke: #252a31; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 606.959597 156.4497 
+L 717.629522 156.4497 
+L 717.629522 78.093608 
+L 606.959597 78.093608 
+z
+" clip-path="url(#pa19500daa7)" style="fill: #c9d8e6; stroke: #252a31; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #252a31" x="76.814953" y="111.774287" transform="rotate(-0 76.814953 111.774287)">Fixation</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #6b7280" x="76.814953" y="137.373375" transform="rotate(-0 76.814953 137.373375)">About 1,000 ms</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 142.716621 117.644778 
+Q 149.998306 117.644778 156.050153 117.644778 
+" style="fill: none; stroke: #252a31; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 152.450153 115.844778 
+L 156.050153 117.644778 
+L 152.450153 119.444778 
+" style="fill: none; stroke: #252a31; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #252a31" x="223.184855" y="111.774287" transform="rotate(-0 223.184855 111.774287)">Motion stimulus</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #6b7280" x="223.184855" y="137.373101" transform="rotate(-0 223.184855 137.373101)">300 ms; 6%, 12%, or 24%</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 289.086522 117.644778 
+Q 296.368207 117.644778 302.420055 117.644778 
+" style="fill: none; stroke: #252a31; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 298.820055 115.844778 
+L 302.420055 117.644778 
+L 298.820055 119.444778 
+" style="fill: none; stroke: #252a31; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #252a31" x="369.554756" y="111.774287" transform="rotate(-0 369.554756 111.774287)">Direction estimate</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #6b7280" x="369.554756" y="137.373375" transform="rotate(-0 369.554756 137.373375)">Rotate response line</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 435.456424 117.644778 
+Q 442.738109 117.644778 448.789956 117.644778 
+" style="fill: none; stroke: #252a31; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 445.189956 115.844778 
+L 448.789956 117.644778 
+L 445.189956 119.444778 
+" style="fill: none; stroke: #252a31; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #252a31" x="515.924658" y="111.774287" transform="rotate(-0 515.924658 111.774287)">Confirmation</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #6b7280" x="515.924658" y="137.373375" transform="rotate(-0 515.924658 137.373375)">Confirm estimate</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 581.826326 117.644778 
+Q 589.10801 117.644778 595.159858 117.644778 
+" style="fill: none; stroke: #252a31; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 591.559858 115.844778 
+L 595.159858 117.644778 
+L 591.559858 119.444778 
+" style="fill: none; stroke: #252a31; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #252a31" x="662.29456" y="111.774287" transform="rotate(-0 662.29456 111.774287)">Feedback</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #6b7280" x="662.29456" y="137.373375" transform="rotate(-0 662.29456 137.373375)">True direction shown</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #252a31" x="28.619986" y="33.318698" transform="rotate(-0 28.619986 33.318698)">Motion-direction estimation task and analyzed hierarchy</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #252a31" x="28.619986" y="204.955852" transform="rotate(-0 28.619986 204.955852)">12 subjects | 83,210 usable trials | 388 run-level sequences | 4 prior widths (10, 20, 40, 80 deg)</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #6b7280" x="28.619986" y="231.07455" transform="rotate(-0 28.619986 231.07455)">Task structure redrawn from the experimental description; no original-paper artwork is reproduced.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa19500daa7">
+   <rect x="7.2" y="7.2" width="713.99952" height="238.79952"/>
+  </clipPath>
+ </defs>
+</svg>

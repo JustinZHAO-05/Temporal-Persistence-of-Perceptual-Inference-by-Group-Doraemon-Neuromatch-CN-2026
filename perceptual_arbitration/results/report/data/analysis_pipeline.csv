@@ -1,0 +1,12 @@
+step,stage,input,operation,output
+1,Load and validate,Raw direction CSV,Drop rows missing required response/condition fields; recover circular response angle,DataBundle
+2,Preserve sequences,"Subject, session, run, trial order",Sort trials and define each subject-session-run as one sequence,388 sequences
+3,Construct features,Circular responses and conditions,"Compute circular errors, conflicts, previous-trial covariates, and condition indices",Model arrays
+4,Split for prediction,Run-level sequences,Four-fold stratification by subject and prior width,Train/test sequence sets
+5,Fit models,Training sequences only,Fixed-seed multistart optimization; retain maximum training likelihood,Selected fold fits
+6,Score held-out trials,Test sequences,Evaluate predictive log density without refitting,LL/trial and per-sequence LL
+7,Quantify uncertainty,Paired sequence results,"Resample sequences 1,000 times and recompute model differences",Bootstrap intervals
+8,Fit final models,All usable sequences,"Estimate final parameters, posterior states, subject fits, and covariate effects",Final tables
+9,Check adequacy,Final static and covariate HMM checkpoints,"Simulate 100 complete datasets from each final HMM and compare metrics, histograms, and run lengths",Model-labelled PPC tables and figures
+10,Check decoded S/P sensitivity,Existing PPC responses and final checkpoints,"Re-decode observed and simulated sequences with forward-backward smoothing, exclude marginal-MAP lapse trials symmetrically, and recompute response metrics without resimulation","Conditional PPC, retention, and classification tables"
+11,Render report,Completed output tables,"Generate narrative, figures, provenance, and portable HTML without fitting",Self-contained report

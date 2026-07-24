@@ -1,0 +1,31 @@
+data:
+  csv_path: data/data01_direction4priors.csv
+  # Place the public CSV here after downloading it from the Laquitaine & Gardner repository.
+  # Expected filename: data01_direction4priors.csv
+cv:
+  n_splits: 4
+  seed: 42
+training:
+  max_iter_em: 1000
+  tol_hmm: 1e-7
+  n_restarts_hmm: 25
+  n_restarts_independent: 25
+  n_restarts_serial: 15
+  n_restarts_covariate_hmm: 10
+  n_restarts_subject: 25
+models:
+  include_independent_switching: true
+  include_static_hmm: true
+  include_serial_dependence: true
+  include_covariate_hmm: true
+  include_subject_level: true
+output:
+  out_dir: outputs/full_run
+diagnostics:
+  seed: 42
+  n_bootstrap: 1000
+  n_ppc_simulations: 10
+  n_jobs: 1
+  make_figures: true
+  make_report: true
+  make_trial_exports: true

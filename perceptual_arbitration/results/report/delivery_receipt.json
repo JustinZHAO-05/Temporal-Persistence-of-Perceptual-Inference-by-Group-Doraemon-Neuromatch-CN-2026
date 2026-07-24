@@ -1,0 +1,70 @@
+{
+  "browser_validation": {
+    "counts": {
+      "blocks": 102,
+      "charts": 9,
+      "html": 24,
+      "metrics": 0,
+      "tables": 14
+    },
+    "html": "D:\\Study\\NMA\\perceptual_state_arbitration_proposal\\outputs\\full_run\\report\\perceptual_arbitration_results.html",
+    "ok": true,
+    "returncode": 0,
+    "sourceDialog": "passed",
+    "sourceInteraction": "keyboard_menu_semantic_click",
+    "status": "passed",
+    "timings": {
+      "browserRunMs": 8076.4,
+      "contentChecksMs": 240,
+      "readerReadyMs": 1181.5,
+      "responsiveChecksMs": 32,
+      "sourceDialogMs": 32,
+      "totalMs": 8451.6
+    },
+    "viewports": [
+      1440,
+      390
+    ]
+  },
+  "browser_validation_attempt": {
+    "builder_output": "{\"ok\":false,\"stage\":\"verification\",\"code\":\"horizontal_overflow\",\"error\":\"Portable artifact overflows horizontally at 1440px. (desktop viewport)\",\"timings\":{\"browserRunMs\":7309.9,\"verificationMs\":10349.3,\"totalMs\":21101.2}}",
+    "reason": "shared portable reader top bar overflows by the Windows scrollbar width on long pages",
+    "status": "failed"
+  },
+  "compatibility_patch": {
+    "reason": "contain the shared portable-reader top bar within the report viewport",
+    "status": "applied",
+    "style_id": "perceptual-report-overflow-fix"
+  },
+  "counts": {
+    "blocks": 102,
+    "charts": 9,
+    "html": 24,
+    "metrics": 0,
+    "tables": 14
+  },
+  "html": "D:\\Study\\NMA\\perceptual_state_arbitration_proposal\\outputs\\full_run\\report\\perceptual_arbitration_results.html",
+  "ok": true,
+  "returncode": 0,
+  "sourceDialog": "passed",
+  "sourceInteraction": "keyboard_menu_semantic_click",
+  "stages": {
+    "package": "passed",
+    "validation": "passed",
+    "verification": "passed"
+  },
+  "structural_fallback_warning": {
+    "code": "browser_unavailable",
+    "message": "Configured Chromium executable does not exist: D:\\Study\\NMA\\perceptual_state_arbitration_proposal\\outputs\\full_run\\report\\unavailable-browser.exe"
+  },
+  "timings": {
+    "staticChartExtractionMs": 215.8,
+    "structuralVerificationMs": 61.9,
+    "totalMs": 592.8,
+    "validateAndPackageMs": 521.9
+  },
+  "viewports": [
+    1440,
+    390
+  ]
+}

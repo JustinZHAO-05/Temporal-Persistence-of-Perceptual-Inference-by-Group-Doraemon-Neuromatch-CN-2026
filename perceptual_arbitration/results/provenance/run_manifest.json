@@ -1,0 +1,163 @@
+{
+  "completed_at": "2026-07-13T14:08:45.128513+00:00",
+  "config_hash": "04034dc78b562c7608f9de17ebda67fd7e263f574dcb82f3d4ab04109290122e",
+  "config_path": "D:\\Study\\NMA\\perceptual_state_arbitration_proposal\\configs\\default.yaml",
+  "csv_path": "D:\\Study\\NMA\\perceptual_state_arbitration_proposal\\data\\data01_direction4priors.csv",
+  "data": {
+    "coherence_values": [
+      0.06,
+      0.12,
+      0.24
+    ],
+    "dropped_rows": 3,
+    "prior_widths": [
+      10,
+      20,
+      40,
+      80
+    ],
+    "raw_rows": 83213,
+    "sequences": 388,
+    "subjects": 12,
+    "usable_trials": 83210
+  },
+  "data_sha256": "c7675baf734d998b49e8537607e8b1435b0a775f7c1c562ad67b412de52059da",
+  "environment": {
+    "packages": {
+      "PyYAML": "6.0.3",
+      "duckdb": "1.5.4",
+      "joblib": "1.5.3",
+      "matplotlib": "3.11.0",
+      "numpy": "2.5.1",
+      "pandas": "3.0.3",
+      "scikit-learn": "1.9.0",
+      "scipy": "1.18.0"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "execution": {
+    "n_jobs": 4
+  },
+  "out_dir": "D:\\Study\\NMA\\perceptual_state_arbitration_proposal\\outputs\\full_run",
+  "publication_ready": true,
+  "resolved_config": {
+    "cv": {
+      "n_splits": 4,
+      "seed": 42
+    },
+    "data": {
+      "csv_path": "D:\\Study\\NMA\\perceptual_state_arbitration_proposal\\data\\data01_direction4priors.csv"
+    },
+    "diagnostics": {
+      "make_figures": true,
+      "make_report": true,
+      "n_bootstrap": 1000,
+      "n_jobs": 4,
+      "n_ppc_simulations": 10,
+      "seed": 42
+    },
+    "models": {
+      "include_covariate_hmm": true,
+      "include_independent_switching": true,
+      "include_serial_dependence": true,
+      "include_static_hmm": true,
+      "include_subject_level": true
+    },
+    "output": {
+      "out_dir": "D:\\Study\\NMA\\perceptual_state_arbitration_proposal\\outputs\\full_run"
+    },
+    "training": {
+      "max_iter_em": 1000,
+      "n_restarts_covariate_hmm": 10,
+      "n_restarts_hmm": 25,
+      "n_restarts_independent": 25,
+      "n_restarts_serial": 15,
+      "n_restarts_subject": 25,
+      "tol_hmm": "1e-7"
+    }
+  },
+  "run_key": "d85588f2b8521e3997f7bbdc44f55849ae2d8461716308b53fb27127ca1e4c77",
+  "schema_version": 1,
+  "stages": {
+    "covariate_uncertainty": {
+      "draws": 1000,
+      "status": "complete",
+      "updated_at": "2026-07-13T14:06:57.346206+00:00"
+    },
+    "cross_validation": {
+      "rows": 24,
+      "status": "complete",
+      "updated_at": "2026-07-13T14:06:14.148849+00:00"
+    },
+    "data": {
+      "status": "complete",
+      "updated_at": "2026-07-13T14:04:43.921723+00:00"
+    },
+    "final_models": {
+      "status": "complete",
+      "updated_at": "2026-07-13T14:06:24.589983+00:00"
+    },
+    "model_bootstrap": {
+      "draws": 1000,
+      "status": "complete",
+      "updated_at": "2026-07-13T14:06:14.300320+00:00"
+    },
+    "posterior_predictive_checks": {
+      "configured_simulations": 10,
+      "execution_override": true,
+      "manifest": "D:\\Study\\NMA\\perceptual_state_arbitration_proposal\\outputs\\full_run\\posterior_predictive_manifest.json",
+      "models": [
+        "static_hmm",
+        "covariate_hmm"
+      ],
+      "seed": 42,
+      "simulations_per_model": 100,
+      "status": "complete",
+      "updated_at": "2026-07-17T14:28:25.122852+00:00"
+    },
+    "posterior_predictive_sp_sensitivity": {
+      "manifest": "D:\\Study\\NMA\\perceptual_state_arbitration_proposal\\outputs\\full_run\\posterior_predictive_sp_manifest.json",
+      "method": "smoothed_marginal_argmax_not_viterbi",
+      "models": [
+        "static_hmm",
+        "covariate_hmm"
+      ],
+      "seed": 42,
+      "simulations_per_model": 100,
+      "status": "complete",
+      "updated_at": "2026-07-17T14:28:32.474149+00:00"
+    },
+    "publication_report": {
+      "figures": 40,
+      "html": "D:\\Study\\NMA\\perceptual_state_arbitration_proposal\\outputs\\full_run\\report\\perceptual_arbitration_results.html",
+      "report_status": "ready",
+      "status": "complete",
+      "updated_at": "2026-07-17T14:20:05.113500+00:00"
+    },
+    "subject_models": {
+      "status": "complete",
+      "subjects": 12,
+      "updated_at": "2026-07-13T14:06:57.689083+00:00"
+    },
+    "trial_exports": {
+      "global_models": 6,
+      "manifest": "D:\\Study\\NMA\\perceptual_state_arbitration_proposal\\outputs\\full_run\\trial_exports\\export_manifest.json",
+      "scopes": [
+        "final",
+        "oof"
+      ],
+      "status": "complete",
+      "subject_model": true,
+      "updated_at": "2026-07-15T08:00:30.743024+00:00",
+      "usable_trials": 83210
+    }
+  },
+  "started_at": "2026-07-13T02:15:19.553144+00:00",
+  "status": "complete",
+  "validation": {
+    "issues": [],
+    "report_issues": [],
+    "selected_fits_converged": true
+  }
+}

@@ -1,0 +1,21 @@
+scope,model,metric,cells,covered,coverage_rate
+All trials (primary),HMM_static,circular_std_error_deg,12,1,0.0833333333333333
+All trials (primary),HMM_static,mean_abs_error_deg,12,0,0.0
+All trials (primary),HMM_static,mean_cos_error,12,1,0.0833333333333333
+All trials (primary),HMM_static,median_abs_error_deg,12,0,0.0
+All trials (primary),HMM_static,prior_like_rate,12,0,0.0
+All trials (primary),Covariate_HMM,circular_std_error_deg,12,3,0.25
+All trials (primary),Covariate_HMM,mean_abs_error_deg,12,3,0.25
+All trials (primary),Covariate_HMM,mean_cos_error,12,4,0.3333333333333333
+All trials (primary),Covariate_HMM,median_abs_error_deg,12,4,0.3333333333333333
+All trials (primary),Covariate_HMM,prior_like_rate,12,5,0.4166666666666665
+Decoded S/P only (sensitivity),HMM_static,circular_std_error_deg,12,0,0.0
+Decoded S/P only (sensitivity),HMM_static,mean_abs_error_deg,12,0,0.0
+Decoded S/P only (sensitivity),HMM_static,mean_cos_error,12,0,0.0
+Decoded S/P only (sensitivity),HMM_static,median_abs_error_deg,12,0,0.0
+Decoded S/P only (sensitivity),HMM_static,prior_like_rate,12,0,0.0
+Decoded S/P only (sensitivity),Covariate_HMM,circular_std_error_deg,12,5,0.4166666666666665
+Decoded S/P only (sensitivity),Covariate_HMM,mean_abs_error_deg,12,4,0.3333333333333333
+Decoded S/P only (sensitivity),Covariate_HMM,mean_cos_error,12,5,0.4166666666666665
+Decoded S/P only (sensitivity),Covariate_HMM,median_abs_error_deg,12,4,0.3333333333333333
+Decoded S/P only (sensitivity),Covariate_HMM,prior_like_rate,12,6,0.5

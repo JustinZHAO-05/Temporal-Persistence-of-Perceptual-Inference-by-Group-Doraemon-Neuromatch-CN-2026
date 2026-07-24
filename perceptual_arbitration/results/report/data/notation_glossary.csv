@@ -1,0 +1,24 @@
+symbol,meaning,unit_or_range
+t,Trial index within one run-level sequence,index
+T,Number of trials in a sequence,count
+yₜ,Participant's reported direction on trial t,angle
+θₜ,True motion direction on trial t,angle
+μₜ,Learned prior center; 225 degrees here,angle
+cₜ,"Motion coherence; 0.06, 0.12, or 0.24",proportion
+σₜ,"Prior standard deviation; 10, 20, 40, or 80 degrees",degrees
+zₜ,Unobserved state on trial t,"S, P, or L"
+S,Sensory-reliance state,state
+P,Prior-reliance state,state
+L,Lapse/random-response state,state
+κ,von Mises concentration; larger means a narrower circular distribution,precision
+I₀(κ),Modified Bessel function that normalizes a von Mises density,normalizer
+πᵢ,Probability that a sequence starts in state i,probability
+Aᵢⱼ,Probability of moving from state i to state j,probability
+Aₛₛ / Aₚₚ,Sensory/prior self-transition probability,probability
+γₜ(i),Posterior probability that trial t is in state i,probability
+"ξₜ(i,j)",Posterior probability of transition i to j between trials t and t+1,probability
+αₛₜᵢₘ,One-back attraction toward the previous stimulus,dimensionless weight
+αᵣₑₛₚ,One-back attraction toward the previous response,dimensionless weight
+LL,Log likelihood assigned to observed responses,log density
+ΔLL,Model LL minus the independent Switching LL,log density per trial
+R,Mean resultant length used to estimate κ,0 to 1

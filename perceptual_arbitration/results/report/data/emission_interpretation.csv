@@ -1,0 +1,8 @@
+parameter,family,condition,condition_label,value,circular_sd_deg,plain_interpretation
+sensory_kappa,Sensory,coherence_0.06,Coherence 0.06,1.6979078840989352,53.9992910743736,Responses are concentrated within a circular spread of about 54.0 degrees
+sensory_kappa,Sensory,coherence_0.12,Coherence 0.12,4.835141500106237,27.738766843743385,Responses are concentrated within a circular spread of about 27.7 degrees
+sensory_kappa,Sensory,coherence_0.24,Coherence 0.24,13.832882226258723,15.701298867710845,Responses are concentrated within a circular spread of about 15.7 degrees
+prior_kappa,Prior,prior_std_10,Prior SD 10,22.354505627393493,12.258890763273081,Responses are concentrated within a circular spread of about 12.3 degrees
+prior_kappa,Prior,prior_std_20,Prior SD 20,12.671320386640884,16.435640066337882,Responses are concentrated within a circular spread of about 16.4 degrees
+prior_kappa,Prior,prior_std_40,Prior SD 40,6.839193310429737,22.829010897549143,Responses are concentrated within a circular spread of about 22.8 degrees
+prior_kappa,Prior,prior_std_80,Prior SD 80,2.446196523123481,42.5483301591426,Responses are concentrated within a circular spread of about 42.5 degrees

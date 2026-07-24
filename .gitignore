@@ -1,0 +1,20 @@
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+**/.pytest_cache/
+*.py[cod]
+*.egg-info/
+
+# Generated analysis products are reproducible but too large for routine Git use.
+perceptual_arbitration/data/*.csv
+perceptual_arbitration/outputs/
+perceptual_arbitration/output/
+perceptual_arbitration/trial_exports/
+perceptual_arbitration/checkpoints/
+
+# Local browser and editor state.
+.playwright-cli/
+.vscode/
+.idea/
